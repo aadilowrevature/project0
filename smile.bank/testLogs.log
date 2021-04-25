@@ -1,0 +1,98 @@
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Hello! Welcome to Smile Bank!     Apr-24-21 Saturday EDT 18:22:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:22:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login to your Account or Register!     Apr-24-21 Saturday EDT 18:22:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:22:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Employee Login     Apr-24-21 Saturday EDT 18:22:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Customer Login     Apr-24-21 Saturday EDT 18:22:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Register for an Account     Apr-24-21 Saturday EDT 18:22:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Exit App     Apr-24-21 Saturday EDT 18:22:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:22:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Type and enter the number for your selection     Apr-24-21 Saturday EDT 18:22:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:22:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Awaiting Your Response:     Apr-24-21 Saturday EDT 18:22:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Thank you for choosing Smile Bank! Please enter the requested information to create your account     Apr-24-21 Saturday EDT 18:23:05
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:23:05
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your FULL NAME:      Apr-24-21 Saturday EDT 18:23:05
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your SSN (9 digit number):      Apr-24-21 Saturday EDT 18:23:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Customer Creation Success!     Apr-24-21 Saturday EDT 18:23:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your Email:      Apr-24-21 Saturday EDT 18:23:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Create a Password. Your password must be 8-16 characters long     Apr-24-21 Saturday EDT 18:23:23
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Credentials Created!     Apr-24-21 Saturday EDT 18:23:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:23:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Your Account Creation was successful! Would you like to login now?     Apr-24-21 Saturday EDT 18:23:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Yes     Apr-24-21 Saturday EDT 18:23:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) No     Apr-24-21 Saturday EDT 18:23:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login with your Credentials     Apr-24-21 Saturday EDT 18:23:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:23:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your Email:      Apr-24-21 Saturday EDT 18:23:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your Password:      Apr-24-21 Saturday EDT 18:23:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Login Success!     Apr-24-21 Saturday EDT 18:23:49
+{INFO} -  [com.smile.bank.log.SmileLog]   -     ID is  167     Apr-24-21 Saturday EDT 18:23:49
+{INFO} -  [com.smile.bank.log.SmileLog]   -     User: Dogman@filet.com     Apr-24-21 Saturday EDT 18:23:49
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-24-21 Saturday EDT 18:23:49
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:23:49
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Open a new Checkings or Savings Account     Apr-24-21 Saturday EDT 18:23:49
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Withdrawl     Apr-24-21 Saturday EDT 18:23:49
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Deposit     Apr-24-21 Saturday EDT 18:23:49
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Transfer Between your own Accounts     Apr-24-21 Saturday EDT 18:23:49
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Send Money     Apr-24-21 Saturday EDT 18:23:49
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View Balance     Apr-24-21 Saturday EDT 18:23:49
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Logout     Apr-24-21 Saturday EDT 18:23:49
+{INFO} -  [com.smile.bank.log.SmileLog]   -     WIP     Apr-24-21 Saturday EDT 18:23:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     User: Dogman@filet.com     Apr-24-21 Saturday EDT 18:23:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-24-21 Saturday EDT 18:23:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:23:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Open a new Checkings or Savings Account     Apr-24-21 Saturday EDT 18:23:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Withdrawl     Apr-24-21 Saturday EDT 18:23:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Deposit     Apr-24-21 Saturday EDT 18:23:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Transfer Between your own Accounts     Apr-24-21 Saturday EDT 18:23:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Send Money     Apr-24-21 Saturday EDT 18:23:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View Balance     Apr-24-21 Saturday EDT 18:23:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Logout     Apr-24-21 Saturday EDT 18:23:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:24:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Viewing Your Checking or Savings Account?     Apr-24-21 Saturday EDT 18:24:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-24-21 Saturday EDT 18:24:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-24-21 Saturday EDT 18:24:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-24-21 Saturday EDT 18:24:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:24:04
+{WARN} -  [com.smile.bank.log.SmileLog]   -     No account found for Customer ID 167     Apr-24-21 Saturday EDT 18:24:04
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:24:04
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Viewing Your Checking or Savings Account?     Apr-24-21 Saturday EDT 18:24:04
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-24-21 Saturday EDT 18:24:04
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-24-21 Saturday EDT 18:24:04
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-24-21 Saturday EDT 18:24:04
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:24:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Search by entering Customer ID     Apr-24-21 Saturday EDT 18:24:07
+{WARN} -  [com.smile.bank.log.SmileLog]   -     No account found for Customer ID 167     Apr-24-21 Saturday EDT 18:24:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:24:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Viewing Your Checking or Savings Account?     Apr-24-21 Saturday EDT 18:24:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-24-21 Saturday EDT 18:24:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-24-21 Saturday EDT 18:24:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-24-21 Saturday EDT 18:24:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:24:11
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Going Back...     Apr-24-21 Saturday EDT 18:24:11
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:24:11
+{INFO} -  [com.smile.bank.log.SmileLog]   -     User: Dogman@filet.com     Apr-24-21 Saturday EDT 18:24:11
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-24-21 Saturday EDT 18:24:11
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:24:11
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Open a new Checkings or Savings Account     Apr-24-21 Saturday EDT 18:24:11
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Withdrawl     Apr-24-21 Saturday EDT 18:24:11
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Deposit     Apr-24-21 Saturday EDT 18:24:11
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Transfer Between your own Accounts     Apr-24-21 Saturday EDT 18:24:11
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Send Money     Apr-24-21 Saturday EDT 18:24:11
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View Balance     Apr-24-21 Saturday EDT 18:24:11
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Logout     Apr-24-21 Saturday EDT 18:24:11
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Logging out...     Apr-24-21 Saturday EDT 18:24:15
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:24:15
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:24:15
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login to your Account or Register!     Apr-24-21 Saturday EDT 18:24:15
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:24:15
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Employee Login     Apr-24-21 Saturday EDT 18:24:15
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Customer Login     Apr-24-21 Saturday EDT 18:24:15
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Register for an Account     Apr-24-21 Saturday EDT 18:24:15
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Exit App     Apr-24-21 Saturday EDT 18:24:15
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:24:15
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Type and enter the number for your selection     Apr-24-21 Saturday EDT 18:24:15
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-24-21 Saturday EDT 18:24:15
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Awaiting Your Response:     Apr-24-21 Saturday EDT 18:24:15
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Thank You for using Smile Bank! Goodbye!     Apr-24-21 Saturday EDT 18:24:19
