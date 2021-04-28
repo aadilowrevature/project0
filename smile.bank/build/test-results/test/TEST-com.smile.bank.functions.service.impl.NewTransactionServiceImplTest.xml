@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.smile.bank.functions.service.impl.NewTransactionServiceImplTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-28T16:42:40" hostname="LAPTOP-CQANB9I3" time="0.015">
+  <properties/>
+  <testcase name="sendMoneyBadTargetCustomer()" classname="com.smile.bank.functions.service.impl.NewTransactionServiceImplTest" time="0.009"/>
+  <testcase name="sendMoneyBadAmount()" classname="com.smile.bank.functions.service.impl.NewTransactionServiceImplTest" time="0.0"/>
+  <testcase name="depositAccBadAmount()" classname="com.smile.bank.functions.service.impl.NewTransactionServiceImplTest" time="0.001"/>
+  <testcase name="sendMoneyLowBalance()" classname="com.smile.bank.functions.service.impl.NewTransactionServiceImplTest" time="0.001"/>
+  <testcase name="sendMoney()" classname="com.smile.bank.functions.service.impl.NewTransactionServiceImplTest" time="0.0"/>
+  <testcase name="depositAcc()" classname="com.smile.bank.functions.service.impl.NewTransactionServiceImplTest" time="0.0"/>
+  <testcase name="withdrawAccBadAmount()" classname="com.smile.bank.functions.service.impl.NewTransactionServiceImplTest" time="0.001"/>
+  <testcase name="withdrawAcc()" classname="com.smile.bank.functions.service.impl.NewTransactionServiceImplTest" time="0.0"/>
+  <testcase name="sendMoneyBadTargetAccount()" classname="com.smile.bank.functions.service.impl.NewTransactionServiceImplTest" time="0.001"/>
+  <testcase name="withdrawAccLowBalance()" classname="com.smile.bank.functions.service.impl.NewTransactionServiceImplTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

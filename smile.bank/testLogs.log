@@ -10310,3 +10310,668 @@
 {INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 07:59:32
 {INFO} -  [com.smile.bank.log.SmileLog]   -     Awaiting Your Response:     Apr-28-21 Wednesday EDT 07:59:32
 {INFO} -  [com.smile.bank.log.SmileLog]   -     Thank You for using Smile Bank! Goodbye!     Apr-28-21 Wednesday EDT 07:59:34
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Hello! Welcome to Smile Bank!     Apr-28-21 Wednesday EDT 12:33:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:33:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login to your Account or Register!     Apr-28-21 Wednesday EDT 12:33:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:33:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Employee Login     Apr-28-21 Wednesday EDT 12:33:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Customer Login     Apr-28-21 Wednesday EDT 12:33:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Register for an Account     Apr-28-21 Wednesday EDT 12:33:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Exit App     Apr-28-21 Wednesday EDT 12:33:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:33:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Type and enter the number for your selection     Apr-28-21 Wednesday EDT 12:33:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:33:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Awaiting Your Response:     Apr-28-21 Wednesday EDT 12:33:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login with your Credentials     Apr-28-21 Wednesday EDT 12:33:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:33:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your Email:      Apr-28-21 Wednesday EDT 12:33:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your Password:      Apr-28-21 Wednesday EDT 12:33:36
+{WARN} -  [com.smile.bank.log.SmileLog]   -     Login Failed! Incorrect Email or Password     Apr-28-21 Wednesday EDT 12:33:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:33:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login to your Account or Register!     Apr-28-21 Wednesday EDT 12:33:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:33:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Employee Login     Apr-28-21 Wednesday EDT 12:33:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Customer Login     Apr-28-21 Wednesday EDT 12:33:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Register for an Account     Apr-28-21 Wednesday EDT 12:33:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Exit App     Apr-28-21 Wednesday EDT 12:33:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:33:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Type and enter the number for your selection     Apr-28-21 Wednesday EDT 12:33:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:33:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Awaiting Your Response:     Apr-28-21 Wednesday EDT 12:33:43
+{ERROR} -  [com.smile.bank.log.SmileLog]   -     Error, Invalid Selction. Please Try Again:      Apr-28-21 Wednesday EDT 12:33:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:33:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login to your Account or Register!     Apr-28-21 Wednesday EDT 12:33:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:33:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Employee Login     Apr-28-21 Wednesday EDT 12:33:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Customer Login     Apr-28-21 Wednesday EDT 12:33:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Register for an Account     Apr-28-21 Wednesday EDT 12:33:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Exit App     Apr-28-21 Wednesday EDT 12:33:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:33:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Type and enter the number for your selection     Apr-28-21 Wednesday EDT 12:33:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:33:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Awaiting Your Response:     Apr-28-21 Wednesday EDT 12:33:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login with your Credentials     Apr-28-21 Wednesday EDT 12:33:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:33:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your Email:      Apr-28-21 Wednesday EDT 12:33:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your Password:      Apr-28-21 Wednesday EDT 12:34:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Login Success!     Apr-28-21 Wednesday EDT 12:34:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -     ID is  162     Apr-28-21 Wednesday EDT 12:34:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -     User: milk@tea.com     Apr-28-21 Wednesday EDT 12:34:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-28-21 Wednesday EDT 12:34:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:34:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Open a new Checkings or Savings Account     Apr-28-21 Wednesday EDT 12:34:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Withdrawl     Apr-28-21 Wednesday EDT 12:34:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Deposit     Apr-28-21 Wednesday EDT 12:34:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Send Money     Apr-28-21 Wednesday EDT 12:34:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View Balance     Apr-28-21 Wednesday EDT 12:34:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Logout     Apr-28-21 Wednesday EDT 12:34:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:34:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Withdrawing from Your Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:34:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:34:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:34:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:34:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:34:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please select an account. You cannot withdraw from pending accounts     Apr-28-21 Wednesday EDT 12:34:26
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Account{balance=10.0, customer_id=162, acc_num=17, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:34:26
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Account{balance=10.0, customer_id=162, acc_num=18, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:34:26
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Account{balance=25.0, customer_id=162, acc_num=6, account_status='Approved', account_type='checking'}     Apr-28-21 Wednesday EDT 12:34:26
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Account{balance=10002.0, customer_id=162, acc_num=14, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:34:26
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Account{balance=20000.0, customer_id=162, acc_num=19, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:34:26
+{INFO} -  [com.smile.bank.log.SmileLog]   -     0) Cancel     Apr-28-21 Wednesday EDT 12:34:26
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Sorry, no transactions for Pending Accounts     Apr-28-21 Wednesday EDT 12:34:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please select an account. You cannot withdraw from pending accounts     Apr-28-21 Wednesday EDT 12:34:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Account{balance=10.0, customer_id=162, acc_num=17, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:34:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Account{balance=10.0, customer_id=162, acc_num=18, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:34:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Account{balance=25.0, customer_id=162, acc_num=6, account_status='Approved', account_type='checking'}     Apr-28-21 Wednesday EDT 12:34:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Account{balance=10002.0, customer_id=162, acc_num=14, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:34:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Account{balance=20000.0, customer_id=162, acc_num=19, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:34:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     0) Cancel     Apr-28-21 Wednesday EDT 12:34:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     How much would you like to withdraw?      Apr-28-21 Wednesday EDT 12:34:49
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Sorry dog is not an acceptable input     Apr-28-21 Wednesday EDT 12:34:57
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Invalid amount     Apr-28-21 Wednesday EDT 12:34:57
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:34:57
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Withdrawing from Your Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:34:57
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:34:57
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:34:57
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:34:57
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:34:57
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please select an account. You cannot withdraw from pending accounts     Apr-28-21 Wednesday EDT 12:35:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Account{balance=10.0, customer_id=162, acc_num=17, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Account{balance=10.0, customer_id=162, acc_num=18, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Account{balance=25.0, customer_id=162, acc_num=6, account_status='Approved', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Account{balance=10002.0, customer_id=162, acc_num=14, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Account{balance=20000.0, customer_id=162, acc_num=19, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     0) Cancel     Apr-28-21 Wednesday EDT 12:35:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     How much would you like to withdraw?      Apr-28-21 Wednesday EDT 12:35:04
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Insufficient funds!     Apr-28-21 Wednesday EDT 12:35:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Withdrawing from Your Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:35:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:35:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:35:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:35:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:08
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please select an account. You cannot withdraw from pending accounts     Apr-28-21 Wednesday EDT 12:35:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Account{balance=10.0, customer_id=162, acc_num=17, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Account{balance=10.0, customer_id=162, acc_num=18, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Account{balance=25.0, customer_id=162, acc_num=6, account_status='Approved', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Account{balance=10002.0, customer_id=162, acc_num=14, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Account{balance=20000.0, customer_id=162, acc_num=19, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     0) Cancel     Apr-28-21 Wednesday EDT 12:35:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     How much would you like to withdraw?      Apr-28-21 Wednesday EDT 12:35:12
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Invalid amount     Apr-28-21 Wednesday EDT 12:35:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Withdrawing from Your Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:35:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:35:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:35:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:35:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please select an account. You cannot withdraw from pending accounts     Apr-28-21 Wednesday EDT 12:35:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Account{balance=10.0, customer_id=162, acc_num=17, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Account{balance=10.0, customer_id=162, acc_num=18, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Account{balance=25.0, customer_id=162, acc_num=6, account_status='Approved', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Account{balance=10002.0, customer_id=162, acc_num=14, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Account{balance=20000.0, customer_id=162, acc_num=19, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     0) Cancel     Apr-28-21 Wednesday EDT 12:35:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     How much would you like to withdraw?      Apr-28-21 Wednesday EDT 12:35:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:21
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Withdrawing from Your Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:35:21
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:35:21
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:35:21
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:35:21
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:21
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please select an account. You cannot withdraw from pending accounts     Apr-28-21 Wednesday EDT 12:35:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Account{balance=10.0, customer_id=162, acc_num=17, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Account{balance=10.0, customer_id=162, acc_num=18, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Account{balance=24.0, customer_id=162, acc_num=6, account_status='Approved', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Account{balance=10002.0, customer_id=162, acc_num=14, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Account{balance=20000.0, customer_id=162, acc_num=19, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     0) Cancel     Apr-28-21 Wednesday EDT 12:35:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Withdrawing from Your Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:35:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:35:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:35:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:35:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Going Back...     Apr-28-21 Wednesday EDT 12:35:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     User: milk@tea.com     Apr-28-21 Wednesday EDT 12:35:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-28-21 Wednesday EDT 12:35:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Open a new Checkings or Savings Account     Apr-28-21 Wednesday EDT 12:35:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Withdrawl     Apr-28-21 Wednesday EDT 12:35:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Deposit     Apr-28-21 Wednesday EDT 12:35:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Send Money     Apr-28-21 Wednesday EDT 12:35:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View Balance     Apr-28-21 Wednesday EDT 12:35:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Logout     Apr-28-21 Wednesday EDT 12:35:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:35
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Depositing to Your Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:35:35
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:35:35
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:35:35
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:35:35
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:35
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please select an account. You cannot deposit to pending accounts     Apr-28-21 Wednesday EDT 12:35:38
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Account{balance=10.0, customer_id=162, acc_num=17, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:38
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Account{balance=10.0, customer_id=162, acc_num=18, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:38
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Account{balance=24.0, customer_id=162, acc_num=6, account_status='Approved', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:38
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Account{balance=10002.0, customer_id=162, acc_num=14, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:38
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Account{balance=20000.0, customer_id=162, acc_num=19, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:38
+{INFO} -  [com.smile.bank.log.SmileLog]   -     0) Cancel     Apr-28-21 Wednesday EDT 12:35:38
+{INFO} -  [com.smile.bank.log.SmileLog]   -     How much would you like to Deposit?      Apr-28-21 Wednesday EDT 12:35:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:45
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Depositing to Your Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:35:45
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:35:45
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:35:45
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:35:45
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:45
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please select an account. You cannot deposit to pending accounts     Apr-28-21 Wednesday EDT 12:35:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Account{balance=10.0, customer_id=162, acc_num=17, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Account{balance=10.0, customer_id=162, acc_num=18, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Account{balance=10002.0, customer_id=162, acc_num=14, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Account{balance=10024.0, customer_id=162, acc_num=6, account_status='Approved', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Account{balance=20000.0, customer_id=162, acc_num=19, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:35:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     0) Cancel     Apr-28-21 Wednesday EDT 12:35:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:51
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Depositing to Your Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:35:51
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:35:51
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:35:51
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:35:51
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:51
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Going Back...     Apr-28-21 Wednesday EDT 12:35:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     User: milk@tea.com     Apr-28-21 Wednesday EDT 12:35:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-28-21 Wednesday EDT 12:35:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Open a new Checkings or Savings Account     Apr-28-21 Wednesday EDT 12:35:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Withdrawl     Apr-28-21 Wednesday EDT 12:35:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Deposit     Apr-28-21 Wednesday EDT 12:35:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Send Money     Apr-28-21 Wednesday EDT 12:35:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View Balance     Apr-28-21 Wednesday EDT 12:35:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Logout     Apr-28-21 Wednesday EDT 12:35:53
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:57
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Viewing Your Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:35:57
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:35:57
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:35:57
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:35:57
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:35:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please enter an account number to view it     Apr-28-21 Wednesday EDT 12:35:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:36:04
+{INFO} -  [com.smile.bank.log.SmileLog]   -     No checking account found with account number= 162     Apr-28-21 Wednesday EDT 12:36:04
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:36:04
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Viewing Your Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:36:04
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:36:04
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:36:04
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:36:04
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:36:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please enter an account number to view it     Apr-28-21 Wednesday EDT 12:36:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:36:09
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Account{balance=10024.0, customer_id=162, acc_num=6, account_status='Approved', account_type='checking'}     Apr-28-21 Wednesday EDT 12:36:09
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:36:09
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Viewing Your Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:36:09
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:36:09
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:36:09
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:36:09
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Going Back...     Apr-28-21 Wednesday EDT 12:36:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:36:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     User: milk@tea.com     Apr-28-21 Wednesday EDT 12:36:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-28-21 Wednesday EDT 12:36:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:36:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Open a new Checkings or Savings Account     Apr-28-21 Wednesday EDT 12:36:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Withdrawl     Apr-28-21 Wednesday EDT 12:36:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Deposit     Apr-28-21 Wednesday EDT 12:36:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Send Money     Apr-28-21 Wednesday EDT 12:36:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View Balance     Apr-28-21 Wednesday EDT 12:36:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Logout     Apr-28-21 Wednesday EDT 12:36:14
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:36:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Sending from Your Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:36:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:36:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:36:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:36:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:36:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please select an account. You cannot Send from pending accounts     Apr-28-21 Wednesday EDT 12:36:23
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Account{balance=10.0, customer_id=162, acc_num=17, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:36:23
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Account{balance=10.0, customer_id=162, acc_num=18, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:36:23
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Account{balance=10002.0, customer_id=162, acc_num=14, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:36:23
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Account{balance=10024.0, customer_id=162, acc_num=6, account_status='Approved', account_type='checking'}     Apr-28-21 Wednesday EDT 12:36:23
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Account{balance=20000.0, customer_id=162, acc_num=19, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:36:23
+{INFO} -  [com.smile.bank.log.SmileLog]   -     0) Cancel     Apr-28-21 Wednesday EDT 12:36:23
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Sorry, no transactions for Pending Accounts     Apr-28-21 Wednesday EDT 12:36:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please select an account. You cannot Send from pending accounts     Apr-28-21 Wednesday EDT 12:36:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Account{balance=10.0, customer_id=162, acc_num=17, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:36:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Account{balance=10.0, customer_id=162, acc_num=18, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:36:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Account{balance=10002.0, customer_id=162, acc_num=14, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:36:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Account{balance=10024.0, customer_id=162, acc_num=6, account_status='Approved', account_type='checking'}     Apr-28-21 Wednesday EDT 12:36:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Account{balance=20000.0, customer_id=162, acc_num=19, account_status='Pending', account_type='checking'}     Apr-28-21 Wednesday EDT 12:36:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     0) Cancel     Apr-28-21 Wednesday EDT 12:36:31
+{INFO} -  [com.smile.bank.log.SmileLog]   -     How much would you like to Send?      Apr-28-21 Wednesday EDT 12:36:36
+{INFO} -  [com.smile.bank.log.SmileLog]   -     What is the receiving account type?     Apr-28-21 Wednesday EDT 12:36:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:36:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:36:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please enter a target Account Number      Apr-28-21 Wednesday EDT 12:36:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     No Customer With Account Number -1     Apr-28-21 Wednesday EDT 12:36:52
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:36:52
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Sending from Your Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:36:52
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:36:52
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:36:52
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:36:52
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:36:52
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Going Back...     Apr-28-21 Wednesday EDT 12:36:55
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:36:55
+{INFO} -  [com.smile.bank.log.SmileLog]   -     WIP     Apr-28-21 Wednesday EDT 12:36:55
+{INFO} -  [com.smile.bank.log.SmileLog]   -     User: milk@tea.com     Apr-28-21 Wednesday EDT 12:36:55
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-28-21 Wednesday EDT 12:36:55
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:36:55
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Open a new Checkings or Savings Account     Apr-28-21 Wednesday EDT 12:36:55
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Withdrawl     Apr-28-21 Wednesday EDT 12:36:55
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Deposit     Apr-28-21 Wednesday EDT 12:36:55
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Send Money     Apr-28-21 Wednesday EDT 12:36:55
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View Balance     Apr-28-21 Wednesday EDT 12:36:55
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Logout     Apr-28-21 Wednesday EDT 12:36:55
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Would You Like to Open a Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:36:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Due to COVID-19, all accounts must be Manually Approved by Employee     Apr-28-21 Wednesday EDT 12:36:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:36:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:36:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Go Back     Apr-28-21 Wednesday EDT 12:36:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Enter a Starting Balance for Checking:      Apr-28-21 Wednesday EDT 12:37:00
+{WARN} -  [com.smile.bank.log.SmileLog]   -     Checking Account Creation failed     Apr-28-21 Wednesday EDT 12:37:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Reason Failed: This Opening Balance is invalid     Apr-28-21 Wednesday EDT 12:37:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:37:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Would You Like to Open a Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:37:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Due to COVID-19, all accounts must be Manually Approved by Employee     Apr-28-21 Wednesday EDT 12:37:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:37:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:37:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Go Back     Apr-28-21 Wednesday EDT 12:37:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Enter a Starting Balance for Checking:      Apr-28-21 Wednesday EDT 12:37:09
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Your new checking account is pending!     Apr-28-21 Wednesday EDT 12:37:12
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Starting balance $10.0     Apr-28-21 Wednesday EDT 12:37:12
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:37:12
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Would You Like to Open a Checking or Savings Account?     Apr-28-21 Wednesday EDT 12:37:12
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Due to COVID-19, all accounts must be Manually Approved by Employee     Apr-28-21 Wednesday EDT 12:37:12
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:37:12
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:37:12
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Go Back     Apr-28-21 Wednesday EDT 12:37:12
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Going back...     Apr-28-21 Wednesday EDT 12:37:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:37:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     User: milk@tea.com     Apr-28-21 Wednesday EDT 12:37:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-28-21 Wednesday EDT 12:37:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:37:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Open a new Checkings or Savings Account     Apr-28-21 Wednesday EDT 12:37:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Withdrawl     Apr-28-21 Wednesday EDT 12:37:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Deposit     Apr-28-21 Wednesday EDT 12:37:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Send Money     Apr-28-21 Wednesday EDT 12:37:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View Balance     Apr-28-21 Wednesday EDT 12:37:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Logout     Apr-28-21 Wednesday EDT 12:37:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Logging out...     Apr-28-21 Wednesday EDT 12:37:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:37:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:37:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login to your Account or Register!     Apr-28-21 Wednesday EDT 12:37:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:37:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Employee Login     Apr-28-21 Wednesday EDT 12:37:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Customer Login     Apr-28-21 Wednesday EDT 12:37:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Register for an Account     Apr-28-21 Wednesday EDT 12:37:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Exit App     Apr-28-21 Wednesday EDT 12:37:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:37:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Type and enter the number for your selection     Apr-28-21 Wednesday EDT 12:37:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:37:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Awaiting Your Response:     Apr-28-21 Wednesday EDT 12:37:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login with your Credentials     Apr-28-21 Wednesday EDT 12:37:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:37:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your Email:      Apr-28-21 Wednesday EDT 12:37:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your Password:      Apr-28-21 Wednesday EDT 12:37:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Login Success!     Apr-28-21 Wednesday EDT 12:37:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-28-21 Wednesday EDT 12:37:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:37:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Work: Approve or Deny New Accounts     Apr-28-21 Wednesday EDT 12:37:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View Account by ID     Apr-28-21 Wednesday EDT 12:37:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View Logs     Apr-28-21 Wednesday EDT 12:37:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Logout     Apr-28-21 Wednesday EDT 12:37:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Approving/Denying Checking or Savings?     Apr-28-21 Wednesday EDT 12:37:42
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:37:42
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:37:42
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:37:42
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Thank you for working today!     Apr-28-21 Wednesday EDT 12:37:46
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Hourly Wage: $1.50 per hour     Apr-28-21 Wednesday EDT 12:37:46
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:37:46
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Entering Work Mode. Approve or Deny Account?     Apr-28-21 Wednesday EDT 12:37:46
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Checking Account ID: 20 Balance: 10.0 Customer ID: 162     Apr-28-21 Wednesday EDT 12:37:46
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Approve     Apr-28-21 Wednesday EDT 12:37:46
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deny     Apr-28-21 Wednesday EDT 12:37:46
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit Work Mode     Apr-28-21 Wednesday EDT 12:37:46
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Terminating Work Mode     Apr-28-21 Wednesday EDT 12:37:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:37:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Approving/Denying Checking or Savings?     Apr-28-21 Wednesday EDT 12:37:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:37:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:37:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:37:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Thank you for working today!     Apr-28-21 Wednesday EDT 12:38:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Hourly Wage: $1.50 per hour     Apr-28-21 Wednesday EDT 12:38:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:38:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Entering Work Mode. Approve or Deny Account?     Apr-28-21 Wednesday EDT 12:38:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Checking Account ID: 20 Balance: 10.0 Customer ID: 162     Apr-28-21 Wednesday EDT 12:38:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Approve     Apr-28-21 Wednesday EDT 12:38:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deny     Apr-28-21 Wednesday EDT 12:38:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit Work Mode     Apr-28-21 Wednesday EDT 12:38:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Approving/Denying Checking or Savings?     Apr-28-21 Wednesday EDT 12:38:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:38:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:38:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:38:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Exiting Work     Apr-28-21 Wednesday EDT 12:38:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:38:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-28-21 Wednesday EDT 12:38:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:38:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Work: Approve or Deny New Accounts     Apr-28-21 Wednesday EDT 12:38:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View Account by ID     Apr-28-21 Wednesday EDT 12:38:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View Logs     Apr-28-21 Wednesday EDT 12:38:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Logout     Apr-28-21 Wednesday EDT 12:38:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Approving/Denying Checking or Savings?     Apr-28-21 Wednesday EDT 12:38:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:38:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:38:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:38:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Thank you for working today!     Apr-28-21 Wednesday EDT 12:38:35
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Hourly Wage: $1.50 per hour     Apr-28-21 Wednesday EDT 12:38:35
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:38:35
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Entering Work Mode. Approve or Deny Account?     Apr-28-21 Wednesday EDT 12:38:35
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Checking Account ID: 11 Balance: 0.0 Customer ID: 168     Apr-28-21 Wednesday EDT 12:38:35
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Approve     Apr-28-21 Wednesday EDT 12:38:35
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deny     Apr-28-21 Wednesday EDT 12:38:35
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit Work Mode     Apr-28-21 Wednesday EDT 12:38:35
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Approving/Denying Checking or Savings?     Apr-28-21 Wednesday EDT 12:38:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:38:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:38:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:38:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Thank you for working today!     Apr-28-21 Wednesday EDT 12:38:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Hourly Wage: $1.50 per hour     Apr-28-21 Wednesday EDT 12:38:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:38:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Entering Work Mode. Approve or Deny Account?     Apr-28-21 Wednesday EDT 12:38:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Checking Account ID: 12 Balance: -100.0 Customer ID: 168     Apr-28-21 Wednesday EDT 12:38:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Approve     Apr-28-21 Wednesday EDT 12:38:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deny     Apr-28-21 Wednesday EDT 12:38:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit Work Mode     Apr-28-21 Wednesday EDT 12:38:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Approving/Denying Checking or Savings?     Apr-28-21 Wednesday EDT 12:38:45
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:38:45
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:38:45
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:38:45
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Thank you for working today!     Apr-28-21 Wednesday EDT 12:38:48
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Hourly Wage: $1.50 per hour     Apr-28-21 Wednesday EDT 12:38:48
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:38:48
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Entering Work Mode. Approve or Deny Account?     Apr-28-21 Wednesday EDT 12:38:48
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Checking Account ID: 13 Balance: 100.0 Customer ID: 168     Apr-28-21 Wednesday EDT 12:38:48
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Approve     Apr-28-21 Wednesday EDT 12:38:48
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deny     Apr-28-21 Wednesday EDT 12:38:48
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit Work Mode     Apr-28-21 Wednesday EDT 12:38:48
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Approving/Denying Checking or Savings?     Apr-28-21 Wednesday EDT 12:38:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:38:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:38:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:38:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Thank you for working today!     Apr-28-21 Wednesday EDT 12:38:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Hourly Wage: $1.50 per hour     Apr-28-21 Wednesday EDT 12:38:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:38:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Entering Work Mode. Approve or Deny Account?     Apr-28-21 Wednesday EDT 12:38:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Checking Account ID: 14 Balance: 10002.0 Customer ID: 162     Apr-28-21 Wednesday EDT 12:38:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Approve     Apr-28-21 Wednesday EDT 12:38:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deny     Apr-28-21 Wednesday EDT 12:38:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit Work Mode     Apr-28-21 Wednesday EDT 12:38:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Approving/Denying Checking or Savings?     Apr-28-21 Wednesday EDT 12:39:00
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:39:00
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:39:00
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:39:00
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Thank you for working today!     Apr-28-21 Wednesday EDT 12:39:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Hourly Wage: $1.50 per hour     Apr-28-21 Wednesday EDT 12:39:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Entering Work Mode. Approve or Deny Account?     Apr-28-21 Wednesday EDT 12:39:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Checking Account ID: 15 Balance: 0.0 Customer ID: 169     Apr-28-21 Wednesday EDT 12:39:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Approve     Apr-28-21 Wednesday EDT 12:39:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deny     Apr-28-21 Wednesday EDT 12:39:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit Work Mode     Apr-28-21 Wednesday EDT 12:39:02
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Approving/Denying Checking or Savings?     Apr-28-21 Wednesday EDT 12:39:05
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:39:05
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:39:05
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:39:05
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Thank you for working today!     Apr-28-21 Wednesday EDT 12:39:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Hourly Wage: $1.50 per hour     Apr-28-21 Wednesday EDT 12:39:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Entering Work Mode. Approve or Deny Account?     Apr-28-21 Wednesday EDT 12:39:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Checking Account ID: 16 Balance: 0.0 Customer ID: 169     Apr-28-21 Wednesday EDT 12:39:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Approve     Apr-28-21 Wednesday EDT 12:39:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deny     Apr-28-21 Wednesday EDT 12:39:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit Work Mode     Apr-28-21 Wednesday EDT 12:39:07
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Approving/Denying Checking or Savings?     Apr-28-21 Wednesday EDT 12:39:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:39:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:39:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:39:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Thank you for working today!     Apr-28-21 Wednesday EDT 12:39:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Hourly Wage: $1.50 per hour     Apr-28-21 Wednesday EDT 12:39:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Entering Work Mode. Approve or Deny Account?     Apr-28-21 Wednesday EDT 12:39:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Checking Account ID: 17 Balance: 10.0 Customer ID: 162     Apr-28-21 Wednesday EDT 12:39:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Approve     Apr-28-21 Wednesday EDT 12:39:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deny     Apr-28-21 Wednesday EDT 12:39:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit Work Mode     Apr-28-21 Wednesday EDT 12:39:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Terminating Work Mode     Apr-28-21 Wednesday EDT 12:39:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Will you be Approving/Denying Checking or Savings?     Apr-28-21 Wednesday EDT 12:39:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Checking     Apr-28-21 Wednesday EDT 12:39:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Savings     Apr-28-21 Wednesday EDT 12:39:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Exit     Apr-28-21 Wednesday EDT 12:39:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Exiting Work     Apr-28-21 Wednesday EDT 12:39:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-28-21 Wednesday EDT 12:39:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Work: Approve or Deny New Accounts     Apr-28-21 Wednesday EDT 12:39:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View Account by ID     Apr-28-21 Wednesday EDT 12:39:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View Logs     Apr-28-21 Wednesday EDT 12:39:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Logout     Apr-28-21 Wednesday EDT 12:39:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:25
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-28-21 Wednesday EDT 12:39:25
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-28-21 Wednesday EDT 12:39:25
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-28-21 Wednesday EDT 12:39:25
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-28-21 Wednesday EDT 12:39:25
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-28-21 Wednesday EDT 12:39:25
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-28-21 Wednesday EDT 12:39:25
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-28-21 Wednesday EDT 12:39:25
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-28-21 Wednesday EDT 12:39:25
+{INFO} -  [com.smile.bank.log.SmileLog]   -     List of Transactions     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=19, timestamp='2021-04-27 23:13:50'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=20, timestamp='2021-04-27 23:13:59'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=100.0, transaction_num=21, timestamp='2021-04-27 23:15:56'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Withdrawl', amount=10.0, transaction_num=22, timestamp='2021-04-27 23:16:31'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=100.0, transaction_num=23, timestamp='2021-04-27 23:17:42'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Deposit', amount=200.0, transaction_num=24, timestamp='2021-04-27 23:18:02'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=25, timestamp='2021-04-27 23:20:25'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     8) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=500000.0, transaction_num=26, timestamp='2021-04-27 23:20:33'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     9) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=27, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     10) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=28, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     11) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=1000.0, transaction_num=29, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     12) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=1000.0, transaction_num=30, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     13) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=200000.0, transaction_num=31, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     14) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=200000.0, transaction_num=32, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     15) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10.0, transaction_num=33, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     16) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10.0, transaction_num=34, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     17) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=35, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     18) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=36, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     19) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10000.0, transaction_num=37, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     20) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10000.0, transaction_num=38, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     21) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=39, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     22) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=40, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     23) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=6000.0, transaction_num=41, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     24) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=6000.0, transaction_num=42, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     25) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=43, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     26) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=44, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     27) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=45, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     28) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=46, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     29) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=50000.0, transaction_num=47, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     30) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=50000.0, transaction_num=48, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     31) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=40000.0, transaction_num=49, timestamp='2021-04-28 02:51:10'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     32) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=420907.0, transaction_num=50, timestamp='2021-04-28 02:51:48'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     33) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=25.0, transaction_num=51, timestamp='2021-04-28 02:56:32'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     34) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=1.0, transaction_num=52, timestamp='2021-04-28 12:35:22'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     35) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=53, timestamp='2021-04-28 12:35:46'customer_id=162'}     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-28-21 Wednesday EDT 12:39:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Exiting..     Apr-28-21 Wednesday EDT 12:39:34
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:34
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-28-21 Wednesday EDT 12:39:34
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:34
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Work: Approve or Deny New Accounts     Apr-28-21 Wednesday EDT 12:39:34
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View Account by ID     Apr-28-21 Wednesday EDT 12:39:34
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View Logs     Apr-28-21 Wednesday EDT 12:39:34
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Logout     Apr-28-21 Wednesday EDT 12:39:34
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Logging out...     Apr-28-21 Wednesday EDT 12:39:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login to your Account or Register!     Apr-28-21 Wednesday EDT 12:39:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Employee Login     Apr-28-21 Wednesday EDT 12:39:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Customer Login     Apr-28-21 Wednesday EDT 12:39:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Register for an Account     Apr-28-21 Wednesday EDT 12:39:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Exit App     Apr-28-21 Wednesday EDT 12:39:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Type and enter the number for your selection     Apr-28-21 Wednesday EDT 12:39:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:39:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Awaiting Your Response:     Apr-28-21 Wednesday EDT 12:39:59
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Thank You for using Smile Bank! Goodbye!     Apr-28-21 Wednesday EDT 12:40:05
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Hello! Welcome to Smile Bank!     Apr-28-21 Wednesday EDT 12:40:20
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:40:20
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login to your Account or Register!     Apr-28-21 Wednesday EDT 12:40:20
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:40:20
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Employee Login     Apr-28-21 Wednesday EDT 12:40:20
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Customer Login     Apr-28-21 Wednesday EDT 12:40:20
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Register for an Account     Apr-28-21 Wednesday EDT 12:40:20
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Exit App     Apr-28-21 Wednesday EDT 12:40:20
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:40:20
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Type and enter the number for your selection     Apr-28-21 Wednesday EDT 12:40:20
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:40:20
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Awaiting Your Response:     Apr-28-21 Wednesday EDT 12:40:20
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login with your Credentials     Apr-28-21 Wednesday EDT 12:40:23
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:40:23
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your Email:      Apr-28-21 Wednesday EDT 12:40:23
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your Password:      Apr-28-21 Wednesday EDT 12:40:30
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Login Success!     Apr-28-21 Wednesday EDT 12:40:37
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-28-21 Wednesday EDT 12:40:37
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:40:37
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Work: Approve or Deny New Accounts     Apr-28-21 Wednesday EDT 12:40:37
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View Account by ID     Apr-28-21 Wednesday EDT 12:40:37
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View Logs     Apr-28-21 Wednesday EDT 12:40:37
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Logout     Apr-28-21 Wednesday EDT 12:40:37
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:40:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-28-21 Wednesday EDT 12:40:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-28-21 Wednesday EDT 12:40:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-28-21 Wednesday EDT 12:40:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-28-21 Wednesday EDT 12:40:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-28-21 Wednesday EDT 12:40:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-28-21 Wednesday EDT 12:40:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-28-21 Wednesday EDT 12:40:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-28-21 Wednesday EDT 12:40:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter a Date to search by.     Apr-28-21 Wednesday EDT 12:40:52
+{INFO} -  [com.smile.bank.log.SmileLog]   -     This Searches the date you give to today     Apr-28-21 Wednesday EDT 12:40:52
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Must be this format: (YYYY-MM-DD)     Apr-28-21 Wednesday EDT 12:40:52
+{INFO} -  [com.smile.bank.log.SmileLog]   -     List of Transactions     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=27, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=28, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=1000.0, transaction_num=29, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=1000.0, transaction_num=30, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=200000.0, transaction_num=31, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=200000.0, transaction_num=32, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10.0, transaction_num=33, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     8) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10.0, transaction_num=34, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     9) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=35, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     10) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=36, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     11) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10000.0, transaction_num=37, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     12) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10000.0, transaction_num=38, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     13) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=39, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     14) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=40, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     15) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=6000.0, transaction_num=41, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     16) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=6000.0, transaction_num=42, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     17) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=43, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     18) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=44, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     19) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=45, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     20) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=46, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     21) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=50000.0, transaction_num=47, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     22) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=50000.0, transaction_num=48, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     23) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=40000.0, transaction_num=49, timestamp='2021-04-28 02:51:10'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     24) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=420907.0, transaction_num=50, timestamp='2021-04-28 02:51:48'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     25) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=25.0, transaction_num=51, timestamp='2021-04-28 02:56:32'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     26) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=1.0, transaction_num=52, timestamp='2021-04-28 12:35:22'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     27) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=53, timestamp='2021-04-28 12:35:46'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-28-21 Wednesday EDT 12:41:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter a Name     Apr-28-21 Wednesday EDT 12:41:38
+{INFO} -  [com.smile.bank.log.SmileLog]   -     List of Transactions     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Transactions{, name='mike pencer, acc_num=0, account_type='null', transaction_type='null', amount=0.0, transaction_num=0, timestamp='null'customer_id=151'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=20, timestamp='2021-04-27 23:13:59'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=100.0, transaction_num=21, timestamp='2021-04-27 23:15:56'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Transactions{, name='milk tea, acc_num=6, account_type='savings', transaction_type='Withdrawl', amount=10.0, transaction_num=22, timestamp='2021-04-27 23:16:31'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Deposit', amount=100.0, transaction_num=23, timestamp='2021-04-27 23:17:42'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Transactions{, name='milk tea, acc_num=6, account_type='savings', transaction_type='Deposit', amount=200.0, transaction_num=24, timestamp='2021-04-27 23:18:02'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=25, timestamp='2021-04-27 23:20:25'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     8) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Deposit', amount=500000.0, transaction_num=26, timestamp='2021-04-27 23:20:33'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     9) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=27, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     10) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=28, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     11) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=1000.0, transaction_num=29, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     12) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=1000.0, transaction_num=30, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     13) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=200000.0, transaction_num=31, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     14) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=200000.0, transaction_num=32, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     15) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10.0, transaction_num=33, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     16) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10.0, transaction_num=34, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     17) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=35, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     18) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=36, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     19) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=19, timestamp='2021-04-27 23:13:50'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     20) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10000.0, transaction_num=38, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     21) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=39, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     22) Transactions{, name='milk tea, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=40, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     23) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=6000.0, transaction_num=41, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     24) Transactions{, name='milk tea, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=6000.0, transaction_num=42, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     25) Transactions{, name='milk tea, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=43, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     26) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=44, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     27) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=45, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     28) Transactions{, name='milk tea, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=46, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     29) Transactions{, name='milk tea, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=50000.0, transaction_num=47, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     30) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=50000.0, transaction_num=48, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     31) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=40000.0, transaction_num=49, timestamp='2021-04-28 02:51:10'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     32) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=420907.0, transaction_num=50, timestamp='2021-04-28 02:51:48'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     33) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Deposit', amount=25.0, transaction_num=51, timestamp='2021-04-28 02:56:32'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     34) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=1.0, transaction_num=52, timestamp='2021-04-28 12:35:22'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     35) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=53, timestamp='2021-04-28 12:35:46'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     36) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10000.0, transaction_num=37, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-28-21 Wednesday EDT 12:41:41
