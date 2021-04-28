@@ -1,353 +1,385 @@
 package com.smile.bank.functions;
 
-import java.util.Scanner;
-
 import com.smile.bank.consoles.OpenAccountConsole;
 import com.smile.bank.exception.SmileException;
-import com.smile.bank.functions.dao.impl.NewTransactionDAOImpl;
-import com.smile.bank.functions.service.ApproveAccountService;
-import com.smile.bank.functions.service.NewTransactionService;
-import com.smile.bank.functions.service.OpenAccountService;
-import com.smile.bank.functions.service.ViewAccountService;
-import com.smile.bank.functions.service.impl.ApproveAccountServiceImpl;
-import com.smile.bank.functions.service.impl.NewTransactionServiceImpl;
-import com.smile.bank.functions.service.impl.OpenAccountServiceImpl;
-import com.smile.bank.functions.service.impl.ViewAccountServiceImpl;
+import com.smile.bank.functions.service.*;
+import com.smile.bank.functions.service.impl.*;
 import com.smile.bank.log.SmileLog;
+import com.smile.bank.model.Account;
 import com.smile.bank.model.OpenAccount;
 
+import java.util.List;
+import java.util.Scanner;
+
 public class Functions {
-//bulk of the methods
-	SmileLog smile = new SmileLog();
-	Scanner scanner = new Scanner(System.in);
-	OpenAccountService OAS = new OpenAccountServiceImpl();
-	ApproveAccountService AAS = new ApproveAccountServiceImpl();
-	ViewAccountService VAS = new ViewAccountServiceImpl();
-	NewTransactionService NTC = new NewTransactionServiceImpl();
+    //bulk of the methods
+    SmileLog smile = new SmileLog();
+    Scanner scanner = new Scanner(System.in);
+    OpenAccountService OAS = new OpenAccountServiceImpl();
+    ApproveAccountService AAS = new ApproveAccountServiceImpl();
+    ViewAccountService VAS = new ViewAccountServiceImpl();
+    NewTransactionService NTC = new NewTransactionServiceImpl();
+    QuickFindService find = new QuickFindServiceImpl();
 
-	// *************Customer Methods********************
-	public void OpenAccountMethod(String email) {
+    // *************Customer Methods********************
+    public void OpenAccountMethod(String email) {
 
-		OpenAccountConsole open = new OpenAccountConsole();
+        OpenAccountConsole open = new OpenAccountConsole();
 
-		open.openAccConsole(email);
+        open.openAccConsole(email);
 
-	}
+    }
 
-	public void OpenCheckingMethod(String email) {
-		OpenAccount newAccount = new OpenAccount();
-		try {
-			smile.message("Please Enter a Starting Balance for Checkings: ");
-			newAccount.setBalance(Double.parseDouble(scanner.nextLine()));
-		} catch (NumberFormatException e) {
-			smile.message("You entered a bad number!");
-			smile.eventFail(e);
-		}
-		try {
-			newAccount.setCustomer_id(OAS.quickfindID(email));
-		} catch (SmileException e) {
-			e.printStackTrace();
-		}
+    public void OpenCheckingMethod(String email) {
+        OpenAccount newAccount = new OpenAccount();
+        try {
+            smile.message("Please Enter a Starting Balance for Checking: ");
+            newAccount.setBalance(Double.parseDouble(scanner.nextLine()));
+        } catch (NumberFormatException e) {
+            smile.message("You entered a bad number!");
+            smile.eventFail(e);
+        }
+        try {
+            newAccount.setCustomer_id(find.findID(email));
+        } catch (SmileException e) {
+            e.printStackTrace();
+        }
 
-		try {
-			if (OAS.openChecking(newAccount) == 1) {
-				smile.message("Your new checking account is pending!");
-				smile.message("Starting balance $" + newAccount.getBalance());
-				smile.message("");
-			}
-		} catch (SmileException e1) {
-			smile.warn("Checking Account Creation failed");
-			smile.eventFail(e1);
+        try {
+            if (OAS.openChecking(newAccount) == 1) {
+                smile.message("Your new checking account is pending!");
+                smile.message("Starting balance $" + newAccount.getBalance());
+                smile.message("");
+            }
+        } catch (SmileException e1) {
+            smile.warn("Checking Account Creation failed");
+            smile.eventFail(e1);
 
-		}
-	}
+        }
+    }
 
-	public void OpenSavingsMethod(String email) {
-		OpenAccount newAccount = new OpenAccount();
-		try {
-			smile.message("Please Enter a Starting Balance for Savings: ");
-			newAccount.setBalance(Double.parseDouble(scanner.nextLine()));
-		} catch (NumberFormatException e) {
-			smile.message("You entered a bad number!");
-			smile.eventFail(e);
-		}
-		try {
-			newAccount.setCustomer_id(OAS.quickfindID(email));
-		} catch (SmileException e) {
-			e.printStackTrace();
-		}
+    public void OpenSavingsMethod(String email) {
+        OpenAccount newAccount = new OpenAccount();
+        try {
+            smile.message("Please Enter a Starting Balance for Savings: ");
+            newAccount.setBalance(Double.parseDouble(scanner.nextLine()));
+        } catch (NumberFormatException e) {
+            smile.message("You entered a bad number!");
+            smile.eventFail(e);
+        }
+        try {
+            newAccount.setCustomer_id(find.findID(email));
+        } catch (SmileException e) {
+            e.printStackTrace();
+        }
 
-		try {
-			if (OAS.openSavings(newAccount) == 1) {
-				smile.message("Your new Savings Account is Pending!");
-				smile.message("Starting balance $" + newAccount.getBalance());
-				smile.message("");
-			}
-		} catch (SmileException e1) {
-			smile.warn("Savings Account Creation failed");
-			smile.eventFail(e1);
+        try {
+            if (OAS.openSavings(newAccount) == 1) {
+                smile.message("Your new Savings Account is Pending!");
+                smile.message("Starting balance $" + newAccount.getBalance());
+                smile.message("");
+            }
+        } catch (SmileException e1) {
+            smile.warn("Savings Account Creation failed");
+            smile.eventFail(e1);
 
-		}
-	}
+        }
+    }
 
-	// *************Employee Methods********************
-	public void AccountApprovalMethod() {
-		String account_type = null;
-		int ch = 0;
-		do {
-			try {
+    // *************Employee Methods********************
+    public void AccountApprovalMethod() {
+        String account_type = null;
+        int ch = 0;
+        do {
+            try {
 
-				smile.message("Will you be Approving/Denying Checking or Savings?");
-				smile.message("1) Checking");
-				smile.message("2) Savings");
-				smile.message("3) Exit Work Mode");
-				ch = Integer.parseInt(scanner.nextLine());
-			} catch (NumberFormatException e) {
-			}
+                smile.message("Will you be Approving/Denying Checking or Savings?");
+                smile.message("1) Checking");
+                smile.message("2) Savings");
+                smile.message("3) Exit Work Mode");
+                ch = Integer.parseInt(scanner.nextLine());
+            } catch (NumberFormatException e) {
+            }
 
-			switch (ch) {
-			case 1:
-				account_type = "checking";
-				ch = 0;
-				break;
-			case 2:
-				account_type = "savings";
-				ch = 0;
-				break;
-			case 3:
-				smile.message("Exiting Work Mode...");
-				smile.message("");
-				break;
+            switch (ch) {
+                case 1:
+                    account_type = "checking";
+                    ch = 0;
+                    break;
+                case 2:
+                    account_type = "savings";
+                    ch = 0;
+                    break;
+                case 3:
+                    smile.message("Exiting Work Mode...");
+                    smile.message("");
+                    break;
 
-			default:
-				smile.error();
-			}
+                default:
+                    smile.error();
+            }
 
-			try {
-				AAS.searchAccount(account_type);
-			} catch (SmileException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		} while (ch != 3);
-	}
+            try {
+                AAS.searchAccount(account_type);
+            } catch (SmileException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        } while (ch != 3);
+    }
 
-	public void ViewAccountMethod() {
-		String account_type = null;
-		int ch = 0;
-		int ID = 0;
-		do {
-			try {
-				smile.message("");
-				smile.message("Will you be Viewing a Checking or Savings Account?");
-				smile.message("1) Checking");
-				smile.message("2) Savings");
-				smile.message("3) Stop Search");
-				ch = Integer.parseInt(scanner.nextLine());
-				smile.message("");
-			} catch (NumberFormatException e) {
-			}
+    public void ViewAccountMethod() {
+        String account_type = null;
+        int ch = 0;
+        int ID = 0;
+        do {
+            try {
+                smile.message("");
+                smile.message("Will you be Viewing a Checking or Savings Account?");
+                smile.message("1) Checking");
+                smile.message("2) Savings");
+                smile.message("3) Stop Search");
+                ch = Integer.parseInt(scanner.nextLine());
+                smile.message("");
+            } catch (NumberFormatException e) {
+            }
 
-			switch (ch) {
-			case 1:
-				account_type = "checking";
-				try {
-					smile.message("Search by entering Customer ID");
-					smile.message("");
-					try {
-						ID = Integer.parseInt(scanner.nextLine());
-					} catch (NumberFormatException e) {
+            switch (ch) {
+                case 1:
+                    account_type = "checking";
+                    try {
+                        smile.message("Search by entering Customer ID");
+                        smile.message("");
+                        try {
+                            ID = Integer.parseInt(scanner.nextLine());
+                        } catch (NumberFormatException e) {
 
-					}
+                        }
 
-					VAS.viewAccount(ID, account_type);
-					ID = 0;
-				} catch (SmileException e) {
-					smile.warn("No account found for Customer ID " + ID);
-					// e.printStackTrace();
-				}
-				ch = 0;
-				break;
-			case 2:
-				account_type = "savings";
-				try {
-					smile.message("Search by entering Customer ID");
-					try {
-						ID = Integer.parseInt(scanner.nextLine());
-					} catch (NumberFormatException e) {
+                        VAS.viewAccount(ID, account_type);
+                        ID = 0;
+                    } catch (SmileException e) {
+                        smile.warn("No account found for Customer ID " + ID);
+                        // e.printStackTrace();
+                    }
+                    ch = 0;
+                    break;
+                case 2:
+                    account_type = "savings";
+                    try {
+                        smile.message("Search by entering Customer ID");
+                        try {
+                            ID = Integer.parseInt(scanner.nextLine());
+                        } catch (NumberFormatException e) {
 
-					}
+                        }
 
-					VAS.viewAccount(ID, account_type);
-					ID = 0;
-				} catch (SmileException e) {
-					smile.warn("No account found for Customer ID " + ID);
-					// e.printStackTrace();
-				}
-				ch = 0;
-				break;
-			case 3:
-				smile.message("Stopping Search...");
-				smile.message("");
-				break;
+                        VAS.viewAccount(ID, account_type);
+                        ID = 0;
+                    } catch (SmileException e) {
+                        smile.warn("No account found for Customer ID " + ID);
+                        // e.printStackTrace();
+                    }
+                    ch = 0;
+                    break;
+                case 3:
+                    smile.message("Stopping Search...");
+                    smile.message("");
+                    break;
 
-			default:
-				smile.error();
-			}
+                default:
+                    smile.error();
+            }
 
-		} while (ch != 3);
-	}
+        } while (ch != 3);
+    }
 
-	public void ViewTransactionLog() {
+    public void ViewTransactionLog() {
 
-	}
+    }
 
-	public void WithdrawMethod() {
-		int customer_id = 0;
-		int acc_num = 0;
-		String account_type = null;
-		double balance = 0;
-		double amount = 0;
+    public void WithdrawMethod(int ID) {
+        int customer_id = 0;
+        int acc_num = 0;
+        String account_type = null;
+        double balance = 0;
+        double amount = 0;
 
-		int ch = 0;
-		smile.message("What is your customer ID? ");
-		try {
-			customer_id = Integer.parseInt(scanner.nextLine());
-		} catch (NumberFormatException e) {
-		}
+        int ch = 0;
 
-		smile.message("What is your account number? ");
-		try {
-			acc_num = Integer.parseInt(scanner.nextLine());
-		} catch (NumberFormatException e) {
-		}
+        //customer_id=ID;
 
-		smile.message("How much would you like to withdraw? ");
-		try {
-			amount = Double.parseDouble(scanner.nextLine());
-		} catch (NumberFormatException e) {
-		}
-		do {
-			try {
-				smile.message("");
-				smile.message("Will you be Withdrawing from Your Checking or Savings Account?");
-				smile.message("1) Checking");
-				smile.message("2) Savings");
-				smile.message("3) Exit");
-				ch = Integer.parseInt(scanner.nextLine());
-				smile.message("");
-			} catch (NumberFormatException e) {
-			}
 
-			switch (ch) {
-			case 1:
-				account_type = "checking";
-				// VAS.viewAccount(ID, account_type);
-				try {
-					NTC.withdrawAcc(customer_id, acc_num, account_type, balance, amount);
-				} catch (SmileException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				ch = 0;
-				break;
-			case 2:
-				account_type = "savings";
-				// smile.message("Search by entering Customer ID");
-				try {
-				} catch (NumberFormatException e) {
+        do {
+            try {
+                smile.message("");
+                smile.message("Will you be Withdrawing from Your Checking or Savings Account?");
+                smile.message("1) Checking");
+                smile.message("2) Savings");
+                smile.message("3) Exit");
+                smile.message("");
+                ch = Integer.parseInt(scanner.nextLine());
 
-				}
+            } catch (NumberFormatException e) {
+            }
 
-				// VAS.viewAccount(ID, account_type);
-				try {
-					NTC.withdrawAcc(customer_id, acc_num, account_type, balance, amount);
-				} catch (SmileException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-				ch = 0;
-				break;
-			case 3:
-				smile.message("Going Back...");
-				smile.message("");
-				break;
+            int ch2 = 0;
+            switch (ch) {
+                case 1:
+                case 2:
+                        if(ch==1) {
+                            account_type = "checking";
+                        }
+                        if(ch==2){
+                            account_type = "savings"
+                        }
 
-			default:
-				smile.error();
-			}
+                    try {
+                        List<Account> accounts = find.findAccounts(account_type, ID);
+                        if (accounts != null) {
+                            int val=0;
+                            do {
+                                smile.message("Please select an account. You cannot withdraw from pending accounts");
+                                    int z=0;
+                                    int pending=0;
+                                    
 
-		} while (ch != 3);
+                                for (int i = 0; i < accounts.size(); i++) {
+                                    if(accounts.get(i).getAccount_status().equals("Pending"))
+                                    {
+                                        //do not print pending accounts
+                                        pending++;
+                                    }
+                                    else {
+                                        smile.message((++z) + ") " + accounts.get(i));
+                                    }
+                                }
+                                smile.message("0) Cancel");
+                                val=accounts.size()-pending;
+                                try {
+                                    ch2 = Integer.parseInt(scanner.nextLine());
+                                } catch (NumberFormatException e) {
+                                    ch2 = -1;
+                                }
 
-	}
+                                if (ch2 > val || ch2 < 0) {
+                                    smile.message("Invalid Entry");
+                                }
+                                else if (ch2 == 0) {
+                                    ch=3;
+                                    break;
+                                }
+                                else
+                                {
+                                    acc_num = accounts.get(ch2).getAcc_num();
+                                    balance = accounts.get(ch2).getBalance();
 
-	public void DepositMethod() {
+                                    smile.message("How much would you like to withdraw? ");
+                                    try {
+                                        amount = Double.parseDouble(scanner.nextLine());
+                                    } catch (NumberFormatException e) {
+                                    }
+                                    try {
+                                        NTC.withdrawAcc(ID, acc_num, account_type, balance, amount);
+                                    } catch (SmileException e) {
+                                        // TODO Auto-generated catch block
+                                        e.printStackTrace();
+                                    }
+                                }
+                            } while (ch2 > val || ch2 < 0);
 
-	}
 
-	public void TransferMethod() {
+                        } else {
+                            smile.message("Sorry, you do not have any Approved or Pending Checking Accounts.");
+                        }
 
-	}
 
-	public void SendMoneyMethod() {
+                    } catch (SmileException e) {
+                        e.printStackTrace();
+                    }
 
-	}
+                    ch = 0;
+                    break;
+                case 3:
+                    smile.message("Going Back...");
+                    smile.message("");
+                    break;
 
-	public void ViewAccountCustomer(int ID) {
-		String account_type = null;
-		int ch = 0;
+                default:
+                    smile.error();
+            }
 
-		do {
-			try {
-				smile.message("");
-				smile.message("Will you be Viewing Your Checking or Savings Account?");
-				smile.message("1) Checking");
-				smile.message("2) Savings");
-				smile.message("3) Exit");
-				ch = Integer.parseInt(scanner.nextLine());
-				smile.message("");
-			} catch (NumberFormatException e) {
-			}
+        } while (ch != 3);
 
-			switch (ch) {
-			case 1:
-				account_type = "checking";
-				try {
+    }
 
-					VAS.viewAccount(ID, account_type);
+    public void DepositMethod() {
 
-				} catch (SmileException e) {
-					smile.warn("No account found for Customer ID " + ID);
-					// e.printStackTrace();
-				}
-				ch = 0;
-				break;
-			case 2:
-				account_type = "savings";
-				try {
-					smile.message("Search by entering Customer ID");
-					try {
-					} catch (NumberFormatException e) {
+    }
 
-					}
+    public void TransferMethod() {
 
-					VAS.viewAccount(ID, account_type);
-				} catch (SmileException e) {
-					smile.warn("No account found for Customer ID " + ID);
-					// e.printStackTrace();
-				}
-				ch = 0;
-				break;
-			case 3:
-				smile.message("Going Back...");
-				smile.message("");
-				break;
+    }
 
-			default:
-				smile.error();
-			}
+    public void SendMoneyMethod() {
 
-		} while (ch != 3);
-	}
+    }
+
+    public void ViewAccountCustomer(int ID) {
+        String account_type = null;
+        int ch = 0;
+
+        do {
+            try {
+                smile.message("");
+                smile.message("Will you be Viewing Your Checking or Savings Account?");
+                smile.message("1) Checking");
+                smile.message("2) Savings");
+                smile.message("3) Exit");
+                ch = Integer.parseInt(scanner.nextLine());
+                smile.message("");
+            } catch (NumberFormatException e) {
+            }
+
+            switch (ch) {
+                case 1:
+                    account_type = "checking";
+                    try {
+
+                        VAS.viewAccount(ID, account_type);
+
+                    } catch (SmileException e) {
+                        smile.warn("No account found for Customer ID " + ID);
+                        // e.printStackTrace();
+                    }
+                    ch = 0;
+                    break;
+                case 2:
+                    account_type = "savings";
+                    try {
+                        smile.message("Search by entering Customer ID");
+                        try {
+                        } catch (NumberFormatException e) {
+
+                        }
+
+                        VAS.viewAccount(ID, account_type);
+                    } catch (SmileException e) {
+                        smile.warn("No account found for Customer ID " + ID);
+                        // e.printStackTrace();
+                    }
+                    ch = 0;
+                    break;
+                case 3:
+                    smile.message("Going Back...");
+                    smile.message("");
+                    break;
+
+                default:
+                    smile.error();
+            }
+
+        } while (ch != 3);
+    }
 
 }

@@ -21,10 +21,6 @@ private OpenAccountDAO openaccdao = new OpenAccountDAOImpl();
 		return openaccdao.openSavings(open);
 	}
 
-	@Override
-	public int quickfindID(String email) throws SmileException {
-		
-		return openaccdao.quickfindID(email);
-	}
+
 
 }

@@ -8,6 +8,6 @@ public interface OpenAccountService {
 
 	public int openSavings(OpenAccount open) throws SmileException;
 
-	public int quickfindID(String email) throws SmileException;
+
 
 }

@@ -2,14 +2,14 @@ package com.smile.bank.consoles;
 
 import com.smile.bank.exception.SmileException;
 import com.smile.bank.functions.Functions;
-import com.smile.bank.functions.dao.OpenAccountDAO;
-import com.smile.bank.functions.dao.impl.OpenAccountDAOImpl;
+import com.smile.bank.functions.dao.QuickFindDAO;
+import com.smile.bank.functions.dao.impl.QuickFindDAOImpl;
 import com.smile.bank.log.SmileLog;
 
 import java.util.Scanner;
 
 public class CustomerConsole {
-	OpenAccountDAO runn = new OpenAccountDAOImpl();
+	QuickFindDAO find = new QuickFindDAOImpl();
 
 	public void customerMainConsole(String email) {
 		Scanner scanner = new Scanner(System.in);
@@ -17,7 +17,7 @@ public class CustomerConsole {
 		Functions run= new Functions();
 		int ID=0;
 		try {
-			ID = runn.quickfindID(email);
+			ID = find.findID(email);
 			smile.message("ID is  "+ID);
 		} catch (SmileException e1) {
 			// TODO Auto-generated catch block
@@ -40,7 +40,7 @@ public class CustomerConsole {
 				break;
 			case 2:
 				// Withdraw
-				//run.WithdrawMethod();
+				run.WithdrawMethod(ID);
 				smile.message("WIP");
 				ch = 0;
 				break;
@@ -51,13 +51,13 @@ public class CustomerConsole {
 				ch = 0;
 				break;
 			case 4:
-				// Transfer
+				// Transfer between own account
 				//run.TransferMethod();
 				smile.message("WIP");
 				ch = 0;
 				break;
 			case 5:
-				// Send Money
+				// Send Money (to another account)
 				//run.SendMoneyMethod();
 				smile.message("WIP");
 				ch = 0;

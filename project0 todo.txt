@@ -1,0 +1,47 @@
+april 28 present it.
+
+bug free
+
+10+ junit, 20 total cases
+
+additional feature
+
+employee can filter transaction view by date, type, id, account number, customer name
+
+minimum viable product plus plus?
+
+add bonus: mocking framework. mockito. mock objects
+
+**********************************************************
+revamp code: more info for certain output
+
+block negative balances. transactions that result in negative
+
+transfer function, withdraw, deposit
+
+customer accept money transfer
+
+employee view log transaction
+
+*************************
+todo
+
+withdraw() needs customer_id,account type, account_number and amount to withdraw
+
+deposit() needs customer_id,account type, account_number and amount to deposit
+
+transfer()
+
+transactionlogging()
+
+extendedfeautres()
+
+
+some internal search layer that searches and displays account info for user. so user inputs are only for their own accounts.
+
+QuickFind class. Find balance. Acc numbers. Id's. etcc. finding any info i need quickly so methods can work.
+
+
+or just use models.... getter setter...
+
+Email gets customer_id... Customer_id can retrieve just about anything else.
