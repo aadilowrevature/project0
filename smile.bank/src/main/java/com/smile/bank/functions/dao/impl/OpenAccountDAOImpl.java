@@ -15,15 +15,21 @@ public class OpenAccountDAOImpl implements OpenAccountDAO {
 
 	@Override
 	public int openChecking(OpenAccount open) throws SmileException {
+
 		int c = 0;
+		int customer_id=open.getCustomer_id();
+		double balance=open.getBalance();
+		int acc_num=0;
+
 		try (Connection connection = PostgresConnection.getConnection()) {
 			String qry = "insert into bank_schema.checking(balance,customer_id,account_status) values (?,?,?)";
 			PreparedStatement preparedStatement = null;
 			preparedStatement = connection.prepareStatement(qry);
-			preparedStatement.setDouble(1, open.getBalance());
-			preparedStatement.setInt(2, open.getCustomer_id());
+			preparedStatement.setDouble(1, balance);
+			preparedStatement.setInt(2, customer_id);
 			preparedStatement.setString(3, "Pending");
 			c = preparedStatement.executeUpdate();
+
 
 		} catch (ClassNotFoundException | SQLException e) {
 			smile.eventFail(e);

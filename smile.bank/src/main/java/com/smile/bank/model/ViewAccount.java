@@ -63,8 +63,11 @@ public class ViewAccount {
 
 	@Override
 	public String toString() {
-		return "Account Type: " + account_type + " || " + "Acc_Num: " + acc_num + ", Balance: $"
-				+ balance + " || customer_id: " + customer_id + " || account_status: " + account_status;
+		return "Account Type: " + account_type.toUpperCase() + " | "
+				+ "Account Number: " + acc_num +" | "
+				+ " Balance: $" + balance + " | "
+				+ "Customer ID: "  + customer_id
+				+ " | Account Status: " + account_status;
 	}
 
 }

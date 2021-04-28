@@ -1,18 +1,18 @@
 package com.smile.bank.functions.dao.impl;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.List;
-
 import com.smile.bank.dao.dbutil.PostgresConnection;
 import com.smile.bank.exception.SmileException;
 import com.smile.bank.functions.dao.ViewAccountDAO;
 import com.smile.bank.log.SmileLog;
 import com.smile.bank.model.ViewAccount;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
 
 public class ViewAccountDAOImpl implements ViewAccountDAO {
 
@@ -27,10 +27,10 @@ public class ViewAccountDAOImpl implements ViewAccountDAO {
 		try (Connection connection = PostgresConnection.getConnection()) {
 			String qry = null;
 			if (account_type.equals("checking")) {
-				qry = "select acc_num,balance,account_status from bank_schema.checking where customer_id =?";
+				qry = "select acc_num,balance,account_status from bank_schema.checking where customer_id =? order by balance";
 			}
 			if (account_type.equals("savings")) {
-				qry = "select acc_num,balance,account_status from bank_schema.savings where customer_id =?";
+				qry = "select acc_num,balance,account_status from bank_schema.savings where customer_id =? order by balance";
 			}
 			PreparedStatement preparedStatement = null;
 			preparedStatement = connection.prepareStatement(qry);
@@ -50,7 +50,11 @@ public class ViewAccountDAOImpl implements ViewAccountDAO {
 				throw new SmileException("No " +account_type +" accounts found for Customer ID " +ID);
 			}
 			else {
-				smile.message(viewList.toString());
+				smile.message("Here are the " +account_type.toUpperCase() +" accounts for Customer ID: "+ID);
+				smile.message("");
+				for (int i=0; i< viewList.size();i++) {
+					smile.message((i+1) + ") "+viewList.get(i));
+				}
 			}
 				
 		} catch (ClassNotFoundException | SQLException e) {

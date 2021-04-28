@@ -6,8 +6,10 @@ import com.smile.bank.functions.service.*;
 import com.smile.bank.functions.service.impl.*;
 import com.smile.bank.log.SmileLog;
 import com.smile.bank.model.Account;
+import com.smile.bank.model.Transactions;
 import com.smile.bank.model.OpenAccount;
 
+import java.util.Date;
 import java.util.List;
 import java.util.Scanner;
 
@@ -33,12 +35,14 @@ public class Functions {
 
     public void OpenCheckingMethod(String email) {
         OpenAccount newAccount = new OpenAccount();
+        double amount = 0;
         try {
             smile.message("Please Enter a Starting Balance for Checking: ");
-            newAccount.setBalance(Double.parseDouble(scanner.nextLine()));
+            amount = Double.parseDouble(scanner.nextLine());
+            newAccount.setBalance(amount);
+
         } catch (NumberFormatException e) {
-            smile.message("You entered a bad number!");
-            smile.eventFail(e);
+            smile.message("Your entry is invalid!");
         }
         try {
             newAccount.setCustomer_id(find.findID(email));
@@ -61,11 +65,14 @@ public class Functions {
 
     public void OpenSavingsMethod(String email) {
         OpenAccount newAccount = new OpenAccount();
+        double amount = 0;
         try {
             smile.message("Please Enter a Starting Balance for Savings: ");
-            newAccount.setBalance(Double.parseDouble(scanner.nextLine()));
+            amount = Double.parseDouble(scanner.nextLine());
+            newAccount.setBalance(amount);
+
         } catch (NumberFormatException e) {
-            smile.message("You entered a bad number!");
+            smile.message("Your entry is invalid!");
             smile.eventFail(e);
         }
         try {
@@ -274,11 +281,11 @@ public class Functions {
                                         }
 
                                         try {
-                                                NTC.depositAcc(ID, acc_num, account_type, amount);
-                                            } catch (SmileException e) {
-                                                // TODO Auto-generated catch block
-                                                smile.message(e.getMessage());
-                                            }
+                                            NTC.depositAcc(ID, acc_num, account_type, amount);
+                                        } catch (SmileException e) {
+                                            // TODO Auto-generated catch block
+                                            smile.message(e.getMessage());
+                                        }
 
                                     }
                                 }
@@ -318,9 +325,9 @@ public class Functions {
         double balance = 0;
         double amount = 0;
 
-        int target_customer_id=0;
-        int target_acc_num=0;
-        String target_account_type=null;
+        int target_customer_id = 0;
+        int target_acc_num = 0;
+        String target_account_type = null;
 
         String entry = null;
 
@@ -392,20 +399,17 @@ public class Functions {
                                             smile.message("Sorry " + entry + " is not an acceptable input");
                                             amount = 0;
                                         }
-                                        int ch3=0;
+                                        int ch3 = 0;
                                         smile.message("What is the receiving account type?");
                                         smile.message("1) Checking");
                                         smile.message("2) Savings");
                                         try {
                                             ch3 = Integer.parseInt(scanner.nextLine());
-                                            if(ch3==1){
-                                                target_account_type="checking";
-                                            }
-                                            else if(ch3==2)
-                                            {
-                                                target_account_type="savings";
-                                            }
-                                            else{
+                                            if (ch3 == 1) {
+                                                target_account_type = "checking";
+                                            } else if (ch3 == 2) {
+                                                target_account_type = "savings";
+                                            } else {
                                                 smile.message("Invalid selection");
                                             }
                                         } catch (NumberFormatException e) {
@@ -413,20 +417,19 @@ public class Functions {
                                         }
 
 
-
                                         smile.message("Please enter a target Account Number ");
                                         try {
                                             entry = scanner.nextLine();
-                                            target_acc_num= Integer.parseInt(entry);
+                                            target_acc_num = Integer.parseInt(entry);
                                         } catch (NumberFormatException e) {
                                             smile.message("Sorry " + entry + " is not an acceptable input");
                                             amount = 0;
                                         }
 
                                         try {
-                                            target_customer_id=find.findID(target_acc_num,target_account_type);
+                                            target_customer_id = find.findID(target_acc_num, target_account_type);
 
-                                            NTC.sendMoney(target_customer_id, target_acc_num,target_account_type,
+                                            NTC.sendMoney(target_customer_id, target_acc_num, target_account_type,
                                                     ID, acc_num, account_type, balance, amount);
                                         } catch (SmileException e) {
                                             // TODO Auto-generated catch block
@@ -464,6 +467,7 @@ public class Functions {
     public void ViewAccountCustomer(int ID) {
         String account_type = null;
         int ch = 0;
+        int acc_num = 0;
 
         do {
             try {
@@ -473,37 +477,50 @@ public class Functions {
                 smile.message("2) Savings");
                 smile.message("3) Exit");
                 ch = Integer.parseInt(scanner.nextLine());
-                smile.message("");
             } catch (NumberFormatException e) {
             }
 
             switch (ch) {
                 case 1:
+                    try {
+                        smile.message("");
+                        smile.message("Please enter an account number to view it");
+                        acc_num = Integer.parseInt(scanner.nextLine());
+                        smile.message("");
+                    } catch (NumberFormatException e) {
+                    }
+
                     account_type = "checking";
                     try {
-
-                        VAS.viewAccount(ID, account_type);
-
+                        Account account = find.findAccounts(account_type, ID, acc_num);
+                        if (account != null) {
+                            smile.message("" + account);
+                        }
                     } catch (SmileException e) {
-                        smile.warn("No account found for Customer ID " + ID);
-                        // e.printStackTrace();
+                        smile.message(e.getMessage());
                     }
+
                     ch = 0;
                     break;
                 case 2:
+                    try {
+                        smile.message("");
+                        smile.message("Please enter an account number to view it");
+                        acc_num = Integer.parseInt(scanner.nextLine());
+                        smile.message("");
+                    } catch (NumberFormatException e) {
+                    }
+
                     account_type = "savings";
                     try {
-                        smile.message("Search by entering Customer ID");
-                        try {
-                        } catch (NumberFormatException e) {
-
+                        Account account = find.findAccounts(account_type, ID, acc_num);
+                        if (account != null) {
+                            smile.message("" + account);
                         }
-
-                        VAS.viewAccount(ID, account_type);
                     } catch (SmileException e) {
-                        smile.warn("No account found for Customer ID " + ID);
-                        // e.printStackTrace();
+                        smile.message(e.getMessage());
                     }
+
                     ch = 0;
                     break;
                 case 3:
@@ -528,22 +545,28 @@ public class Functions {
                 smile.message("Will you be Approving/Denying Checking or Savings?");
                 smile.message("1) Checking");
                 smile.message("2) Savings");
-                smile.message("3) Exit Work Mode");
+                smile.message("3) Exit");
                 ch = Integer.parseInt(scanner.nextLine());
             } catch (NumberFormatException e) {
             }
 
             switch (ch) {
                 case 1:
-                    account_type = "checking";
-                    ch = 0;
-                    break;
+                    if (ch == 1)
+                        account_type = "checking";
+                    if (ch == 2)
+                        account_type = "savings";
                 case 2:
-                    account_type = "savings";
+                    try {
+                        AAS.searchAccount(account_type);
+                    } catch (SmileException e) {
+
+                        e.printStackTrace();
+                    }
                     ch = 0;
                     break;
                 case 3:
-                    smile.message("Exiting Work Mode...");
+                    smile.message("Exiting Work");
                     smile.message("");
                     break;
 
@@ -551,12 +574,7 @@ public class Functions {
                     smile.error();
             }
 
-            try {
-                AAS.searchAccount(account_type);
-            } catch (SmileException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
-            }
+
         } while (ch != 3);
     }
 
@@ -627,6 +645,183 @@ public class Functions {
     }
 
     public void ViewTransactionLog() {
+        int filter = 0;
+        String filter_spec = null;
+        do {
+
+
+            try {
+                smile.message("");
+                smile.message("Filter Transaction Logs By Your Choice");
+                smile.message("1) View All");
+                smile.message("2) View By Date");
+                smile.message("3) View By Type");
+                smile.message("4) View By Customer ID");
+                smile.message("5) View By Account Number");
+                smile.message("6) View By Customer Name");
+                smile.message("7) Exit");
+                filter = Integer.parseInt(scanner.nextLine());
+            } catch (NumberFormatException e) {
+
+            }
+
+            switch (filter) {
+                case 1:
+                    try {
+                        List<Transactions> transactions = find.findTransactions(filter_spec, filter);
+                        if (transactions != null) {
+                            smile.message("List of Transactions");
+                            int val = transactions.size();
+                            for (int i = 0; i < val; i++) {
+
+                                smile.message((i+1) +") " + transactions.get(i));
+                            }
+                        } else {
+                            smile.message("Sorry no transactions");
+                        }
+                    } catch (SmileException e) {
+
+                    }
+                    break;
+                case 2:
+                    try {
+                        smile.message("Enter a Date to search by.");
+                        smile.message("This Searches the date you give to today");
+                        smile.message("Must be this format: (YYYY-MM-DD)");
+                        filter_spec = scanner.nextLine();
+                        List<Transactions> transactions = find.findTransactions(filter_spec, filter);
+                        if (transactions != null) {
+                            smile.message("List of Transactions");
+                            int val = transactions.size();
+                            for (int i = 0; i < val; i++) {
+
+                                smile.message((i+1) +") " + transactions.get(i));
+                            }
+                        } else {
+                            smile.message("Sorry no transactions");
+                        }
+                    } catch (SmileException e) {
+
+                    }
+                    break;
+                case 3:
+                    try {
+                        int ch = 0;
+                        smile.message("Withdrawl, Deposit or Transfer?");
+                        smile.message("1) Withdrawl");
+                        smile.message("2) Deposit");
+                        smile.message("3) Transfer: Outbound");
+                        smile.message("3) Transfer: Inbound");
+                        try {
+                            ch = Integer.parseInt(scanner.nextLine());
+                        } catch (NumberFormatException e) {
+
+                        }
+                        if (ch == 1)
+                            filter_spec = "Withdrawl";
+                        if (ch == 2)
+                            filter_spec = "Deposit";
+                        if (ch == 3)
+                            filter_spec = "Transfer: Outbound";
+                        if (ch == 4)
+                            filter_spec = "Transfer: Inbound";
+                        if (ch > 4 || ch < 1)
+                            break;
+                        List<Transactions> transactions = find.findTransactions(filter_spec, filter);
+                        if (transactions != null) {
+                            smile.message("List of Transactions");
+                            int val = transactions.size();
+                            for (int i = 0; i < val; i++) {
+
+                                smile.message((i+1) +") " + transactions.get(i));
+                            }
+                        } else {
+                            smile.message("Sorry no transactions");
+                        }
+                    } catch (SmileException e) {
+
+                    }
+                    break;
+                case 4:
+                    try {
+                        smile.message("Enter a Customer ID");
+                        filter_spec = scanner.nextLine();
+                        try {
+                            List<Transactions> transactions = find.findTransactions(filter_spec, filter);
+                            if (transactions != null) {
+                                smile.message("List of Transactions");
+                                int val = transactions.size();
+                                for (int i = 0; i < val; i++) {
+
+                                    smile.message((i+1) +") " + transactions.get(i));
+                                }
+                            }else if(transactions.size()==0){
+                                smile.message("");
+                                smile.message("No results matching this filter");
+                                smile.message("");
+                            }
+                            else {
+                                smile.message("Sorry no transactions");
+                            }
+                        } catch (NumberFormatException e) {
+                            smile.message(filter_spec + " is not a number.");
+                        }
+                    } catch (SmileException e) {
+                        smile.message(e.getMessage());
+                    }
+                    break;
+                case 5:
+                    try {
+                        smile.message("Enter an Account Number");
+                        filter_spec = scanner.nextLine();
+                        try {
+                            List<Transactions> transactions = find.findTransactions(filter_spec, filter);
+                            if (transactions != null) {
+                                smile.message("List of Transactions");
+                                int val = transactions.size();
+                                for (int i = 0; i < val; i++) {
+
+                                    smile.message((i+1) +") " + transactions.get(i));
+                                }
+                            } else {
+                                smile.message("Sorry no transactions");
+                            }
+                        } catch (NumberFormatException e) {
+                            smile.message(filter_spec + " is not a number.");
+                        }
+                    } catch (SmileException e) {
+                        smile.message(e.getMessage());
+                    }
+                    break;
+                case 6:
+                    try {
+                        smile.message("Enter a Name");
+                        filter_spec = scanner.nextLine();
+                        List<Transactions> transactions = find.findTransactions(filter_spec, filter);
+                        if (transactions != null) {
+                            smile.message("List of Transactions");
+                            int val = transactions.size();
+                            for (int i = 0; i < val; i++) {
+
+                                smile.message((i+1) +") " + transactions.get(i));
+                            }
+                        } else {
+                            smile.message("Sorry no transactions");
+                        }
+                    } catch (SmileException e) {
+
+                    }
+                    break;
+                case 7:
+                    smile.message("Exiting..");
+                    smile.message("");
+                    break;
+                default:
+                    smile.error();
+            }
+
+        } while (filter != 7);
+
 
     }
 

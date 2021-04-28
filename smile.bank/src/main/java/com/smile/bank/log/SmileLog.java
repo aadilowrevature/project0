@@ -44,7 +44,7 @@ public class SmileLog {
 	public void employeeConsole() {
 		log.info("Welcome! Please make a selection");
 		log.info("");
-		log.info("1) Approve or Deny New Accounts");
+		log.info("1) Work: Approve or Deny New Accounts");
 		log.info("2) View Account by ID");
 		log.info("3) View Logs");
 		log.info("4) Logout");

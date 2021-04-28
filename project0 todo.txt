@@ -26,7 +26,7 @@ employee view log transaction
 *************************
 todo
 
-withdraw() needs customer_id(search),account type (user input), account_number(search) and amount to withdraw (user input), balance(search)
+DONE withdraw() needs customer_id(search),account type (user input), account_number(search) and amount to withdraw (user input), balance(search)
 
 So i need to search for account number: by account type and using customer id.
 
@@ -34,16 +34,12 @@ I need to search for balance using: account number
 
 Balance done
 
-deposit() needs customer_id,account type, account_number and amount to deposit
+DONE deposit() needs customer_id,account type, account_number and amount to deposit
 
-transfer()
 
-transactionlogging()
+DONE transactionlogging()
 
 Done....????
-
-extendedfeautres()
-
 
 some internal search layer that searches and displays account info for user. so user inputs are only for their own accounts.
 
@@ -52,4 +48,13 @@ QuickFind class. Find balance. Acc numbers. Id's. etcc. finding any info i need 
 
 or just use models.... getter setter...
 
+
+DONE transfer()
+
+
+
+extendedfeautres()
+
 Email gets customer_id... Customer_id can retrieve just about anything else.
+
+employee can filter transaction view by date, type, id, account number, customer name
