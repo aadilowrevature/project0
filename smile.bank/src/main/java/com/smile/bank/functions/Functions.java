@@ -20,6 +20,7 @@ public class Functions {
     ViewAccountService VAS = new ViewAccountServiceImpl();
     NewTransactionService NTC = new NewTransactionServiceImpl();
     QuickFindService find = new QuickFindServiceImpl();
+    Validator valid = new Validator();
 
     // *************Customer Methods********************
     public void OpenAccountMethod(String email) {
@@ -204,6 +205,7 @@ public class Functions {
         String account_type = null;
         double balance = 0;
         double amount = 0;
+        String entry = null;
 
         int ch = 0;
 
@@ -227,63 +229,65 @@ public class Functions {
             switch (ch) {
                 case 1:
                 case 2:
-                        if(ch==1) {
-                            account_type = "checking";
-                        }
-                        if(ch==2){
-                            account_type = "savings"
-                        }
+                    if (ch == 1) {
+                        account_type = "checking";
+                    }
+                    if (ch == 2) {
+                        account_type = "savings";
+                    }
 
                     try {
                         List<Account> accounts = find.findAccounts(account_type, ID);
                         if (accounts != null) {
-                            int val=0;
+                            int val = 0;
                             do {
                                 smile.message("Please select an account. You cannot withdraw from pending accounts");
-                                    int z=0;
-                                    int pending=0;
-                                    
+                                int z = 0;
+                                val = accounts.size();
+                                for (int i = 0; i < val; i++) {
 
-                                for (int i = 0; i < accounts.size(); i++) {
-                                    if(accounts.get(i).getAccount_status().equals("Pending"))
-                                    {
-                                        //do not print pending accounts
-                                        pending++;
-                                    }
-                                    else {
-                                        smile.message((++z) + ") " + accounts.get(i));
-                                    }
+                                    smile.message((i + 1) + ") " + accounts.get(i));
                                 }
                                 smile.message("0) Cancel");
-                                val=accounts.size()-pending;
+
                                 try {
                                     ch2 = Integer.parseInt(scanner.nextLine());
                                 } catch (NumberFormatException e) {
-                                    ch2 = -1;
+                                    ch2 = -1; //soft error handling. causes menu to reprint
                                 }
 
                                 if (ch2 > val || ch2 < 0) {
                                     smile.message("Invalid Entry");
-                                }
-                                else if (ch2 == 0) {
-                                    ch=3;
+                                } else if (ch2 == 0) {
+                                    ch = 3;
                                     break;
-                                }
-                                else
-                                {
-                                    acc_num = accounts.get(ch2).getAcc_num();
-                                    balance = accounts.get(ch2).getBalance();
+                                } else {
+                                    if (accounts.get(ch2 - 1).getAccount_status().equals("Pending")) {
+                                        smile.message("Sorry, no transactions for Pending Accounts");
+                                        ch2 = -1;
+                                    } else {
+                                        acc_num = accounts.get(ch2 - 1).getAcc_num();
+                                        balance = accounts.get(ch2 - 1).getBalance();
 
-                                    smile.message("How much would you like to withdraw? ");
-                                    try {
-                                        amount = Double.parseDouble(scanner.nextLine());
-                                    } catch (NumberFormatException e) {
-                                    }
-                                    try {
-                                        NTC.withdrawAcc(ID, acc_num, account_type, balance, amount);
-                                    } catch (SmileException e) {
-                                        // TODO Auto-generated catch block
-                                        e.printStackTrace();
+                                        smile.message("How much would you like to withdraw? ");
+                                        try {
+                                            entry = scanner.nextLine();
+                                            amount = Double.parseDouble(entry);
+                                        } catch (NumberFormatException e) {
+                                            smile.message("Sorry " + entry + " is not an acceptable input");
+                                            amount = 0;
+                                        }
+                                        if (valid.isValidAmount(amount)) { //if it passes everything and makes it here, now perform transaction.
+                                            try {
+                                                NTC.withdrawAcc(ID, acc_num, account_type, balance, amount);
+                                            } catch (SmileException e) {
+                                                // TODO Auto-generated catch block
+                                                smile.message(e.getMessage());
+                                            } 
+                                        } else {
+                                            smile.message("Sorry the amount: " + amount + " is invalid");
+                                            ch2 = -1;
+                                        }
                                     }
                                 }
                             } while (ch2 > val || ch2 < 0);

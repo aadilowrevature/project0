@@ -1,13 +1,13 @@
 package com.smile.bank.functions.dao.impl;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-
 import com.smile.bank.dao.dbutil.PostgresConnection;
 import com.smile.bank.exception.SmileException;
 import com.smile.bank.functions.dao.NewTransactionDAO;
 import com.smile.bank.log.SmileLog;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 
 public class NewTransactionDAOImpl implements NewTransactionDAO {
 	SmileLog smile = new SmileLog();
@@ -26,30 +26,33 @@ public class NewTransactionDAOImpl implements NewTransactionDAO {
 			if (account_type.equals("savings")) {
 				qry = "update bank_schema.savings set balance = balance-? where acc_num =?";
 			}
-			String qry2="insert into bank.schema.transactions (customer_id, transaction_type,account_type,transaction_amount)"
+
+	/*
+			String qry2="insert into bank_schema.transactions (customer_id, transaction_type,account_type,transaction_amount)"
 					+ "values(?,?,?,?)";
-			PreparedStatement preparedStatement = null;
-			PreparedStatement p2 = null;
-			preparedStatement = connection.prepareStatement(qry);
-			p2=connection.prepareStatement(qry2);
-			
+*/
+			PreparedStatement p1 = null;
+			//PreparedStatement p2 = null;
+			p1 = connection.prepareStatement(qry);
+			//p2=connection.prepareStatement(qry2);
+
+
+
 			//Set auto-commit to false
-			connection.setAutoCommit(false);
+			//connection.setAutoCommit(false);
 			
-			preparedStatement.setDouble(1, amount);
-			preparedStatement.setInt(2, acc_num);
-			
+			p1.setDouble(1, amount);
+			p1.setInt(2, acc_num);
+
+/*
 			p2.setInt(1,customer_id);
 			p2.setString(2,"Withdrawl");
 			p2.setString(3,account_type);
 			p2.setDouble(4,amount);
+*/
+			c=p1.executeUpdate();
+			//p2.executeUpdate();
 
-			preparedStatement.addBatch();
-			p2.addBatch();
-			
-			preparedStatement.executeBatch();
-			p2.executeBatch();
-			
 
 		} catch (ClassNotFoundException | SQLException e) {
 			smile.eventFail(e);

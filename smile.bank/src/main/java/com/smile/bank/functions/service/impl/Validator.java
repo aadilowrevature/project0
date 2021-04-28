@@ -9,6 +9,14 @@ public class Validator {
 		}
 
 	}
-	
+
+	public static boolean isValidAmount(double amount){
+		if(amount>0){
+			return true;
+		}
+		else{
+			return false;
+		}
+	}
 	
 }
