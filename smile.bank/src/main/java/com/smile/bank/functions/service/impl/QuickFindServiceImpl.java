@@ -9,11 +9,17 @@ import com.smile.bank.model.Account;
 import java.util.List;
 
 public class QuickFindServiceImpl implements QuickFindService {
+
+
     private QuickFindDAO find = new QuickFindDAOImpl();
     @Override
     public int findID(String email) throws SmileException {
 
         return find.findID(email);
+    }
+    @Override
+    public int findID(int acc_num, String account_type) throws SmileException{
+        return find.findID(acc_num, account_type);
     }
 
     @Override

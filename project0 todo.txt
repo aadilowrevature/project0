@@ -26,13 +26,21 @@ employee view log transaction
 *************************
 todo
 
-withdraw() needs customer_id,account type, account_number and amount to withdraw
+withdraw() needs customer_id(search),account type (user input), account_number(search) and amount to withdraw (user input), balance(search)
+
+So i need to search for account number: by account type and using customer id.
+
+I need to search for balance using: account number
+
+Balance done
 
 deposit() needs customer_id,account type, account_number and amount to deposit
 
 transfer()
 
 transactionlogging()
+
+Done....????
 
 extendedfeautres()
 

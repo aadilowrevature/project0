@@ -6,6 +6,7 @@ import com.smile.bank.model.Account;
 import java.util.List;
 
 public interface QuickFindService {
+    int findID(int acc_num, String account_type) throws SmileException;
 
     public int findID(String email) throws SmileException;
 
