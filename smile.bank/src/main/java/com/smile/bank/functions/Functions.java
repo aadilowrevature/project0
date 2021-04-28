@@ -48,6 +48,7 @@ public class Functions {
             newAccount.setCustomer_id(find.findID(email));
         } catch (SmileException e) {
             e.printStackTrace();
+
         }
 
         try {

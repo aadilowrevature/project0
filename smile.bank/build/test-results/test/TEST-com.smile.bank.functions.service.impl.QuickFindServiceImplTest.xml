@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.smile.bank.functions.service.impl.QuickFindServiceImplTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-04-28T13:38:03" hostname="LAPTOP-CQANB9I3" time="0.051">
+  <properties/>
+  <testcase name="findAccounts()" classname="com.smile.bank.functions.service.impl.QuickFindServiceImplTest" time="0.043"/>
+  <testcase name="findID()" classname="com.smile.bank.functions.service.impl.QuickFindServiceImplTest" time="0.001"/>
+  <testcase name="testFindAccounts()" classname="com.smile.bank.functions.service.impl.QuickFindServiceImplTest" time="0.001"/>
+  <testcase name="testFindID()" classname="com.smile.bank.functions.service.impl.QuickFindServiceImplTest" time="0.0"/>
+  <testcase name="findTransactionsFilter1()" classname="com.smile.bank.functions.service.impl.QuickFindServiceImplTest" time="0.001"/>
+  <testcase name="findTransactionsFilter2()" classname="com.smile.bank.functions.service.impl.QuickFindServiceImplTest" time="0.0"/>
+  <testcase name="findTransactionsFilter3()" classname="com.smile.bank.functions.service.impl.QuickFindServiceImplTest" time="0.0"/>
+  <testcase name="findTransactionsFilter4()" classname="com.smile.bank.functions.service.impl.QuickFindServiceImplTest" time="0.001"/>
+  <testcase name="findTransactionsFilter5()" classname="com.smile.bank.functions.service.impl.QuickFindServiceImplTest" time="0.0"/>
+  <testcase name="findTransactionsFilter6()" classname="com.smile.bank.functions.service.impl.QuickFindServiceImplTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
