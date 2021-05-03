@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Validator.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #ff7300;}
+.s1 { color: #a9b7c6;}
+.s2 { color: #cc7832;}
+.s3 { color: #6897bb;}
+.ln { color: #606366; font-weight: normal; font-style: normal; }
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Validator.java</font>
+</center></td></tr></table>
+<pre><a name="l1"><span class="ln">1    </span></a><span class="s0">package </span><span class="s1">com.smile.bank.functions.service.impl</span><span class="s2">;</span>
+<a name="l2"><span class="ln">2    </span></a>
+<a name="l3"><span class="ln">3    </span></a><span class="s0">public class </span><span class="s1">Validator {</span>
+<a name="l4"><span class="ln">4    </span></a>	<span class="s0">public static boolean </span><span class="s1">isValidTransaction(</span><span class="s0">double </span><span class="s1">balance</span><span class="s2">, </span><span class="s0">double </span><span class="s1">request) {</span>
+<a name="l5"><span class="ln">5    </span></a>		<span class="s0">if </span><span class="s1">(balance &gt;= request) {</span>
+<a name="l6"><span class="ln">6    </span></a>			<span class="s0">return true</span><span class="s2">;</span>
+<a name="l7"><span class="ln">7    </span></a>		<span class="s1">} </span><span class="s0">else </span><span class="s1">{</span>
+<a name="l8"><span class="ln">8    </span></a>			<span class="s0">return false</span><span class="s2">;</span>
+<a name="l9"><span class="ln">9    </span></a>		<span class="s1">}</span>
+<a name="l10"><span class="ln">10   </span></a>
+<a name="l11"><span class="ln">11   </span></a>	<span class="s1">}</span>
+<a name="l12"><span class="ln">12   </span></a>
+<a name="l13"><span class="ln">13   </span></a>	<span class="s0">public static boolean </span><span class="s1">isValidAmount(</span><span class="s0">double </span><span class="s1">amount){</span>
+<a name="l14"><span class="ln">14   </span></a>		<span class="s0">if</span><span class="s1">(amount&gt;</span><span class="s3">0</span><span class="s1">){</span>
+<a name="l15"><span class="ln">15   </span></a>			<span class="s0">return true</span><span class="s2">;</span>
+<a name="l16"><span class="ln">16   </span></a>		<span class="s1">}</span>
+<a name="l17"><span class="ln">17   </span></a>		<span class="s0">else</span><span class="s1">{</span>
+<a name="l18"><span class="ln">18   </span></a>			<span class="s0">return false</span><span class="s2">;</span>
+<a name="l19"><span class="ln">19   </span></a>		<span class="s1">}</span>
+<a name="l20"><span class="ln">20   </span></a>	<span class="s1">}</span>
+<a name="l21"><span class="ln">21   </span></a>	
+<a name="l22"><span class="ln">22   </span></a><span class="s1">}</span>
+<a name="l23"><span class="ln">23   </span></a></pre>
+</body>
+</html>

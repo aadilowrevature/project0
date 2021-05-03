@@ -10975,3 +10975,440 @@
 {INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-28-21 Wednesday EDT 12:41:41
 {INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-28-21 Wednesday EDT 12:41:41
 {INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-28-21 Wednesday EDT 12:41:41
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Hello! Welcome to Smile Bank!     Apr-30-21 Friday EDT 11:46:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:46:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login to your Account or Register!     Apr-30-21 Friday EDT 11:46:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:46:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Employee Login     Apr-30-21 Friday EDT 11:46:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Customer Login     Apr-30-21 Friday EDT 11:46:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Register for an Account     Apr-30-21 Friday EDT 11:46:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Exit App     Apr-30-21 Friday EDT 11:46:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:46:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Type and enter the number for your selection     Apr-30-21 Friday EDT 11:46:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:46:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Awaiting Your Response:     Apr-30-21 Friday EDT 11:46:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Please Login with your Credentials     Apr-30-21 Friday EDT 11:46:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:46:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your Email:      Apr-30-21 Friday EDT 11:46:33
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter your Password:      Apr-30-21 Friday EDT 11:46:38
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Login Success!     Apr-30-21 Friday EDT 11:46:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Welcome! Please make a selection     Apr-30-21 Friday EDT 11:46:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:46:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Work: Approve or Deny New Accounts     Apr-30-21 Friday EDT 11:46:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View Account by ID     Apr-30-21 Friday EDT 11:46:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View Logs     Apr-30-21 Friday EDT 11:46:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Logout     Apr-30-21 Friday EDT 11:46:43
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:46:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:46:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:46:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:46:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:46:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:46:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:46:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:46:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:46:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Withdrawl, Deposit or Transfer?     Apr-30-21 Friday EDT 11:46:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Withdrawl     Apr-30-21 Friday EDT 11:46:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deposit     Apr-30-21 Friday EDT 11:46:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transfer: Outbound     Apr-30-21 Friday EDT 11:46:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transfer: Inbound     Apr-30-21 Friday EDT 11:46:50
+{INFO} -  [com.smile.bank.log.SmileLog]   -     List of Transactions     Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=100.0, transaction_num=21, timestamp='2021-04-27 23:15:56'customer_id=162'}     Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Withdrawl', amount=10.0, transaction_num=22, timestamp='2021-04-27 23:16:31'customer_id=162'}     Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=40000.0, transaction_num=49, timestamp='2021-04-28 02:51:10'customer_id=162'}     Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=420907.0, transaction_num=50, timestamp='2021-04-28 02:51:48'customer_id=162'}     Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=1.0, transaction_num=52, timestamp='2021-04-28 12:35:22'customer_id=162'}     Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:46:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Withdrawl, Deposit or Transfer?     Apr-30-21 Friday EDT 11:47:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Withdrawl     Apr-30-21 Friday EDT 11:47:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deposit     Apr-30-21 Friday EDT 11:47:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transfer: Outbound     Apr-30-21 Friday EDT 11:47:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transfer: Inbound     Apr-30-21 Friday EDT 11:47:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:47:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:47:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:47:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:47:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:47:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:47:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:47:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:47:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:47:06
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Withdrawl, Deposit or Transfer?     Apr-30-21 Friday EDT 11:47:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Withdrawl     Apr-30-21 Friday EDT 11:47:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deposit     Apr-30-21 Friday EDT 11:47:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transfer: Outbound     Apr-30-21 Friday EDT 11:47:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transfer: Inbound     Apr-30-21 Friday EDT 11:47:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:47:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:47:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:47:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:47:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:47:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:47:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:47:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:47:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:47:18
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Withdrawl, Deposit or Transfer?     Apr-30-21 Friday EDT 11:47:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Withdrawl     Apr-30-21 Friday EDT 11:47:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deposit     Apr-30-21 Friday EDT 11:47:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transfer: Outbound     Apr-30-21 Friday EDT 11:47:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transfer: Inbound     Apr-30-21 Friday EDT 11:47:22
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:47:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:47:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:47:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:47:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:47:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:47:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:47:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:47:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:47:24
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Withdrawl, Deposit or Transfer?     Apr-30-21 Friday EDT 11:47:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Withdrawl     Apr-30-21 Friday EDT 11:47:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deposit     Apr-30-21 Friday EDT 11:47:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transfer: Outbound     Apr-30-21 Friday EDT 11:47:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transfer: Inbound     Apr-30-21 Friday EDT 11:47:28
+{INFO} -  [com.smile.bank.log.SmileLog]   -     List of Transactions     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=19, timestamp='2021-04-27 23:13:50'customer_id=162'}     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=20, timestamp='2021-04-27 23:13:59'customer_id=162'}     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=100.0, transaction_num=23, timestamp='2021-04-27 23:17:42'customer_id=162'}     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Deposit', amount=200.0, transaction_num=24, timestamp='2021-04-27 23:18:02'customer_id=162'}     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=25, timestamp='2021-04-27 23:20:25'customer_id=162'}     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=500000.0, transaction_num=26, timestamp='2021-04-27 23:20:33'customer_id=162'}     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=25.0, transaction_num=51, timestamp='2021-04-28 02:56:32'customer_id=162'}     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     8) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=53, timestamp='2021-04-28 12:35:46'customer_id=162'}     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:47:29
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Withdrawl, Deposit or Transfer?     Apr-30-21 Friday EDT 11:47:36
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Withdrawl     Apr-30-21 Friday EDT 11:47:36
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deposit     Apr-30-21 Friday EDT 11:47:36
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transfer: Outbound     Apr-30-21 Friday EDT 11:47:36
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transfer: Inbound     Apr-30-21 Friday EDT 11:47:36
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:47:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:47:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:47:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:47:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:47:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:47:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:47:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:47:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:47:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Withdrawl, Deposit or Transfer?     Apr-30-21 Friday EDT 11:47:42
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Withdrawl     Apr-30-21 Friday EDT 11:47:42
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Deposit     Apr-30-21 Friday EDT 11:47:42
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transfer: Outbound     Apr-30-21 Friday EDT 11:47:42
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transfer: Inbound     Apr-30-21 Friday EDT 11:47:42
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:47:44
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:47:44
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:47:44
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:47:44
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:47:44
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:47:44
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:47:44
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:47:44
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:47:44
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter a Customer ID     Apr-30-21 Friday EDT 11:47:54
+{INFO} -  [com.smile.bank.log.SmileLog]   -     List of Transactions     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=19, timestamp='2021-04-27 23:13:50'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=20, timestamp='2021-04-27 23:13:59'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=100.0, transaction_num=21, timestamp='2021-04-27 23:15:56'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Withdrawl', amount=10.0, transaction_num=22, timestamp='2021-04-27 23:16:31'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=100.0, transaction_num=23, timestamp='2021-04-27 23:17:42'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Deposit', amount=200.0, transaction_num=24, timestamp='2021-04-27 23:18:02'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=25, timestamp='2021-04-27 23:20:25'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     8) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=500000.0, transaction_num=26, timestamp='2021-04-27 23:20:33'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     9) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=27, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     10) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=28, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     11) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=1000.0, transaction_num=29, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     12) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=1000.0, transaction_num=30, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     13) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=200000.0, transaction_num=31, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     14) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=200000.0, transaction_num=32, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     15) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10.0, transaction_num=33, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     16) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10.0, transaction_num=34, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     17) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=35, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     18) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=36, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     19) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10000.0, transaction_num=37, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     20) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10000.0, transaction_num=38, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     21) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=39, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     22) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=40, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     23) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=6000.0, transaction_num=41, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     24) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=6000.0, transaction_num=42, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     25) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=43, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     26) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=44, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     27) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=45, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     28) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=46, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     29) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=50000.0, transaction_num=47, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     30) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=50000.0, transaction_num=48, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     31) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=40000.0, transaction_num=49, timestamp='2021-04-28 02:51:10'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     32) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=420907.0, transaction_num=50, timestamp='2021-04-28 02:51:48'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     33) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=25.0, transaction_num=51, timestamp='2021-04-28 02:56:32'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     34) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=1.0, transaction_num=52, timestamp='2021-04-28 12:35:22'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     35) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=53, timestamp='2021-04-28 12:35:46'customer_id=162'}     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:47:56
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter an Account Number     Apr-30-21 Friday EDT 11:48:05
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:48:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:48:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:48:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:48:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:48:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:48:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:48:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:48:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:48:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:48:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter an Account Number     Apr-30-21 Friday EDT 11:48:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     List of Transactions     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=19, timestamp='2021-04-27 23:13:50'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=20, timestamp='2021-04-27 23:13:59'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=100.0, transaction_num=21, timestamp='2021-04-27 23:15:56'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Withdrawl', amount=10.0, transaction_num=22, timestamp='2021-04-27 23:16:31'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=100.0, transaction_num=23, timestamp='2021-04-27 23:17:42'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Deposit', amount=200.0, transaction_num=24, timestamp='2021-04-27 23:18:02'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=25, timestamp='2021-04-27 23:20:25'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     8) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=500000.0, transaction_num=26, timestamp='2021-04-27 23:20:33'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     9) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=27, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     10) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=28, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     11) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=1000.0, transaction_num=29, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     12) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=1000.0, transaction_num=30, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     13) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=200000.0, transaction_num=31, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     14) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=200000.0, transaction_num=32, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     15) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10.0, transaction_num=33, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     16) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10.0, transaction_num=34, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     17) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=35, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     18) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=36, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     19) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10000.0, transaction_num=37, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     20) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10000.0, transaction_num=38, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     21) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=39, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     22) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=40, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     23) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=6000.0, transaction_num=41, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     24) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=6000.0, transaction_num=42, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     25) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=43, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     26) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=44, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     27) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=45, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     28) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=46, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     29) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=50000.0, transaction_num=47, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     30) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=50000.0, transaction_num=48, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     31) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=40000.0, transaction_num=49, timestamp='2021-04-28 02:51:10'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     32) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=420907.0, transaction_num=50, timestamp='2021-04-28 02:51:48'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     33) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=25.0, transaction_num=51, timestamp='2021-04-28 02:56:32'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     34) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=1.0, transaction_num=52, timestamp='2021-04-28 12:35:22'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     35) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=53, timestamp='2021-04-28 12:35:46'customer_id=162'}     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:48:19
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter a Date to search by.     Apr-30-21 Friday EDT 11:48:38
+{INFO} -  [com.smile.bank.log.SmileLog]   -     This Searches the date you give to today     Apr-30-21 Friday EDT 11:48:38
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Must be this format: (YYYY-MM-DD)     Apr-30-21 Friday EDT 11:48:38
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Invalid Date Entered     Apr-30-21 Friday EDT 11:48:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     No value specified for parameter 1.     Apr-30-21 Friday EDT 11:48:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:48:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:48:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:48:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:48:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:48:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:48:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:48:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:48:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:48:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter a Date to search by.     Apr-30-21 Friday EDT 11:48:45
+{INFO} -  [com.smile.bank.log.SmileLog]   -     This Searches the date you give to today     Apr-30-21 Friday EDT 11:48:45
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Must be this format: (YYYY-MM-DD)     Apr-30-21 Friday EDT 11:48:45
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Invalid Date Entered     Apr-30-21 Friday EDT 11:48:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     No value specified for parameter 1.     Apr-30-21 Friday EDT 11:48:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:48:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:48:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:48:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:48:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:48:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:48:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:48:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:48:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:48:47
+{INFO} -  [com.smile.bank.log.SmileLog]   -     List of Transactions     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=19, timestamp='2021-04-27 23:13:50'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=20, timestamp='2021-04-27 23:13:59'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=100.0, transaction_num=21, timestamp='2021-04-27 23:15:56'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Withdrawl', amount=10.0, transaction_num=22, timestamp='2021-04-27 23:16:31'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=100.0, transaction_num=23, timestamp='2021-04-27 23:17:42'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Deposit', amount=200.0, transaction_num=24, timestamp='2021-04-27 23:18:02'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=25, timestamp='2021-04-27 23:20:25'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     8) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=500000.0, transaction_num=26, timestamp='2021-04-27 23:20:33'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     9) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=27, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     10) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=28, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     11) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=1000.0, transaction_num=29, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     12) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=1000.0, transaction_num=30, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     13) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=200000.0, transaction_num=31, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     14) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=200000.0, transaction_num=32, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     15) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10.0, transaction_num=33, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     16) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10.0, transaction_num=34, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     17) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=35, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     18) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=36, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     19) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10000.0, transaction_num=37, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     20) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10000.0, transaction_num=38, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     21) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=39, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     22) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=40, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     23) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=6000.0, transaction_num=41, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     24) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=6000.0, transaction_num=42, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     25) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=43, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     26) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=44, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     27) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=45, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     28) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=46, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     29) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=50000.0, transaction_num=47, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     30) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=50000.0, transaction_num=48, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     31) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=40000.0, transaction_num=49, timestamp='2021-04-28 02:51:10'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     32) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=420907.0, transaction_num=50, timestamp='2021-04-28 02:51:48'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     33) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=25.0, transaction_num=51, timestamp='2021-04-28 02:56:32'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     34) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=1.0, transaction_num=52, timestamp='2021-04-28 12:35:22'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     35) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=53, timestamp='2021-04-28 12:35:46'customer_id=162'}     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:48:58
+{INFO} -  [com.smile.bank.log.SmileLog]   -     List of Transactions     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=19, timestamp='2021-04-27 23:13:50'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=20, timestamp='2021-04-27 23:13:59'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=100.0, transaction_num=21, timestamp='2021-04-27 23:15:56'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Withdrawl', amount=10.0, transaction_num=22, timestamp='2021-04-27 23:16:31'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=100.0, transaction_num=23, timestamp='2021-04-27 23:17:42'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Deposit', amount=200.0, transaction_num=24, timestamp='2021-04-27 23:18:02'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=25, timestamp='2021-04-27 23:20:25'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     8) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=500000.0, transaction_num=26, timestamp='2021-04-27 23:20:33'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     9) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=27, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     10) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=28, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     11) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=1000.0, transaction_num=29, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     12) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=1000.0, transaction_num=30, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     13) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=200000.0, transaction_num=31, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     14) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=200000.0, transaction_num=32, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     15) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10.0, transaction_num=33, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     16) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10.0, transaction_num=34, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     17) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=35, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     18) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=36, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     19) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10000.0, transaction_num=37, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     20) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10000.0, transaction_num=38, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     21) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=39, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     22) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=40, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     23) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=6000.0, transaction_num=41, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     24) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=6000.0, transaction_num=42, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     25) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=43, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     26) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=44, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     27) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=45, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     28) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=46, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     29) Transactions{, name='null, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=50000.0, transaction_num=47, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     30) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=50000.0, transaction_num=48, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     31) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=40000.0, transaction_num=49, timestamp='2021-04-28 02:51:10'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     32) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=420907.0, transaction_num=50, timestamp='2021-04-28 02:51:48'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     33) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=25.0, transaction_num=51, timestamp='2021-04-28 02:56:32'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     34) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=1.0, transaction_num=52, timestamp='2021-04-28 12:35:22'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     35) Transactions{, name='null, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=53, timestamp='2021-04-28 12:35:46'customer_id=162'}     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:49:03
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter a Name     Apr-30-21 Friday EDT 11:49:10
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:49:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:49:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:49:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:49:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:49:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:49:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:49:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:49:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:49:13
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter a Name     Apr-30-21 Friday EDT 11:49:16
+{INFO} -  [com.smile.bank.log.SmileLog]   -     List of Transactions     Apr-30-21 Friday EDT 11:49:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Transactions{, name='polka dotter, acc_num=0, account_type='null', transaction_type='null', amount=0.0, transaction_num=0, timestamp='null'customer_id=155'}     Apr-30-21 Friday EDT 11:49:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:49:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:49:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:49:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:49:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:49:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:49:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:49:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:49:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:49:17
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Enter a Name     Apr-30-21 Friday EDT 11:49:39
+{INFO} -  [com.smile.bank.log.SmileLog]   -     List of Transactions     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) Transactions{, name='manile panile, acc_num=0, account_type='null', transaction_type='null', amount=0.0, transaction_num=0, timestamp='null'customer_id=153'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) Transactions{, name='mike pencer, acc_num=0, account_type='null', transaction_type='null', amount=0.0, transaction_num=0, timestamp='null'customer_id=151'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=100.0, transaction_num=21, timestamp='2021-04-27 23:15:56'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) Transactions{, name='milk tea, acc_num=6, account_type='savings', transaction_type='Withdrawl', amount=10.0, transaction_num=22, timestamp='2021-04-27 23:16:31'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Deposit', amount=100.0, transaction_num=23, timestamp='2021-04-27 23:17:42'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) Transactions{, name='milk tea, acc_num=6, account_type='savings', transaction_type='Deposit', amount=200.0, transaction_num=24, timestamp='2021-04-27 23:18:02'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=25, timestamp='2021-04-27 23:20:25'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     8) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Deposit', amount=500000.0, transaction_num=26, timestamp='2021-04-27 23:20:33'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     9) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=27, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     10) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=28, timestamp='2021-04-28 01:09:24'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     11) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=1000.0, transaction_num=29, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     12) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=1000.0, transaction_num=30, timestamp='2021-04-28 01:09:39'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     13) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=200000.0, transaction_num=31, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     14) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=200000.0, transaction_num=32, timestamp='2021-04-28 01:09:57'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     15) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10.0, transaction_num=33, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     16) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10.0, transaction_num=34, timestamp='2021-04-28 01:17:39'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     17) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=35, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     18) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=36, timestamp='2021-04-28 01:18:44'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     19) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=10000.0, transaction_num=37, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     20) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=10000.0, transaction_num=38, timestamp='2021-04-28 01:19:05'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     21) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=39, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     22) Transactions{, name='milk tea, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=40, timestamp='2021-04-28 01:20:36'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     23) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=6000.0, transaction_num=41, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     24) Transactions{, name='milk tea, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=6000.0, transaction_num=42, timestamp='2021-04-28 01:21:19'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     25) Transactions{, name='milk tea, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=100.0, transaction_num=43, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     26) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=100.0, transaction_num=44, timestamp='2021-04-28 01:21:35'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     27) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Outbound ', amount=100000.0, transaction_num=45, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     28) Transactions{, name='milk tea, acc_num=6, account_type='savings', transaction_type='Transfer: Inbound ', amount=100000.0, transaction_num=46, timestamp='2021-04-28 01:23:37'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     29) Transactions{, name='milk tea, acc_num=6, account_type='savings', transaction_type='Transfer: Outbound ', amount=50000.0, transaction_num=47, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     30) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Transfer: Inbound ', amount=50000.0, transaction_num=48, timestamp='2021-04-28 01:24:00'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     31) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=40000.0, transaction_num=49, timestamp='2021-04-28 02:51:10'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     32) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=420907.0, transaction_num=50, timestamp='2021-04-28 02:51:48'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     33) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Deposit', amount=25.0, transaction_num=51, timestamp='2021-04-28 02:56:32'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     34) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Withdrawl', amount=1.0, transaction_num=52, timestamp='2021-04-28 12:35:22'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     35) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10000.0, transaction_num=53, timestamp='2021-04-28 12:35:46'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     36) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=19, timestamp='2021-04-27 23:13:50'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     37) Transactions{, name='milk tea, acc_num=6, account_type='checking', transaction_type='Deposit', amount=10.0, transaction_num=20, timestamp='2021-04-27 23:13:59'customer_id=162'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     38) Transactions{, name='mop broom, acc_num=0, account_type='null', transaction_type='null', amount=0.0, transaction_num=0, timestamp='null'customer_id=164'}     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -          Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     Filter Transaction Logs By Your Choice     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     1) View All     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     2) View By Date     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     3) View By Type     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     4) View By Customer ID     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     5) View By Account Number     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     6) View By Customer Name     Apr-30-21 Friday EDT 11:49:40
+{INFO} -  [com.smile.bank.log.SmileLog]   -     7) Exit     Apr-30-21 Friday EDT 11:49:40
